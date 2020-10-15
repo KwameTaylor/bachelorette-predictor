@@ -1,0 +1,424 @@
+Name,Age,Occupation,Hometown,Height,ElimWeek,Season
+Amanda Marsh,23.0,Event Planner,"Chanute, Kansas",,,1
+Trista Rehn,29.0,Miami Heat Dancer,"Miami, Florida",,6.0,1
+Shannon Oliver,24.0,Financial Management Consultant,"Dallas, Texas",,5.0,1
+Kim,24.0,Nanny,"Tempe, Arizona",,4.0,1
+Cathy Grimes,22.0,Graduate Student,"Terra Haute, Indiana",,3.0,1
+Christina,28.0,Attorney,"Bonita, California",,3.0,1
+LaNease Adams,23.0,Actress,"Los Angeles, California",,3.0,1
+Rhonda,28.0,Commercial Real Estate Agent,"Woodward, Oklahoma",,3.0,1
+Alexa,27.0,Special Ed. Teacher,"Beverly Hills, California",,2.0,1
+Amy,28.0,Production Coordinator,"New York, New York",,2.0,1
+Angela,25.0,Hooters Waitress,"Avondale, Arizona",,2.0,1
+Angelique,27.0,Actress,"Burbank, California",,2.0,1
+Katie,23.0,Power Tool Sales Rep.,"Malden, Massachusetts",,2.0,1
+Melissa,25.0,Photographer,"Tempe, Arizona",,2.0,1
+Tina,27.0,Graduate Student,"Plano, Texas",,2.0,1
+Amber,29.0,Business Development Director,"Los Angeles, California",,1.0,1
+Daniela,30.0,Neuropsychologist,"Seattle, Washington",,1.0,1
+Denise,30.0,Doctor,"Honolulu, Hawaii",,1.0,1
+Jackie,22.0,Bar Manager,"Pittsburgh, Pennsylvania",,1.0,1
+Jill,31.0,Retail Manager,"Chicago, Illinois",,1.0,1
+Kristina,27.0,Advertising Executive,"Los Angeles, California",,1.0,1
+Lisa,29.0,Attorney,"Dallas, Texas",,1.0,1
+Paula,24.0,Insurance Representative,"Swansea, Massachusetts",,1.0,1
+Rachel,29.0,6th Grade Teacher,"Eastchester, New York",,1.0,1
+Wendi,26.0,Technology Specialist,"Dallas, Texas",,1.0,1
+Helene Eksterowicz,27.0,School Psychologist,"Gloucester, New Jersey",,,2
+Brooke Smith,22.0,College Student,"Albertville, Alabama",,7.0,2
+Gwen Gioia,31.0,Executive Recruiter,"Philadelphia, Pennsylvania",,6.0,2
+Angela,27.0,Registered Nurse,"Kansas City, Missouri",,5.0,2
+Hayley,28.0,Retail Manager,"Lake Oswego, Oregon",,4.0,2
+Heather Crawford,30.0,Flight Attendant,"Dallas, Texas",,4.0,2
+Christi,23.0,Assistant Financial Advisor,"Boise, Idaho",,3.0,2
+Heather,24.0,Marriage Therapy Trainee,"Walnut Creek, California",,3.0,2
+Kyla,22.0,Airline Supervisor,"Midvale, Utah",,3.0,2
+Shannon,26.0,Graphic Artist,"Long Island, New York",,3.0,2
+Dana,24.0,Radio Sales,"Beverly Hills, California",,2.0,2
+Erin,25.0,Publications Quality Control,"Westchester, Pennsylvania",,2.0,2
+Suzanne,33.0,Flight Attendant,"Redondo Beach, California",,2.0,2
+Frances,30.0,Strategic Planning Analyst,"San Francisco, California",,2.0,2
+Anindita,27.0,Attorney,"New York, New York",,2.0,2
+Amber,26.0,Psychologist,"Chapel Hill, North Carolina",,1.0,2
+Camille,29.0,Actress,"Los Angeles, California",,1.0,2
+Cari,29.0,3rd Grade Teacher,"Granite City, Illinois",,1.0,2
+Christy,24.0,Radiological Technologist,"Avondale, Arizona",,1.0,2
+Erin,24.0,Interior Designer,"Houston, Texas",,1.0,2
+Fatima,22.0,College Student,"Long Beach, California",,1.0,2
+Liangy,30.0,Paralegal,"Coral Gables, Florida",,1.0,2
+Lori,26.0,Former NBA Cheerleader,"Dallas, Texas",,1.0,2
+Merrilee,28.0,1st Grade Teacher,"Forked River, New Jersey",,1.0,2
+Suzi,28.0,Communications Specialist,"Richmond, Virginia",,1.0,2
+Jessica Bowlin,22.0,Student,"Huntington Beach, California",,,5
+Tara Huckeby,23.0,General contractor,"Shawnee, Oklahoma",,7.0,5
+Mandy Jaye Jeffreys,26.0,Designer for an architect firm,"Midland, Texas",,6.0,5
+Trish Schneider,28.0,Model,"Atlanta, Georgia",,5.0,5
+Suzie Williams,23.0,Prosthetic technician,"Ann Arbor, Michigan",,4.0,5
+Karen Lindsay,28.0,Pharmaceutical sales,"Pleasant Grove, Utah",,4.0,5
+Jessica Holcomb,25.0,Attorney,"Pearsall, Texas",,3.0,5
+Julie Durda,24.0,Professional Cheerleader,"Sacramento, California",,3.0,5
+Jenny De Schiralli,26.0,Swim instructor/nanny/personal trainer,"Carrboro, North Carolina",,3.0,5
+Katie Gehart,22.0,LASIK Eye and Skin Center manager,"Scottsdale, Arizona",,3.0,5
+Jean-Marie Callahan,26.0,Hair stylist,"Gibson, North Carolina",,2.0,5
+Debbie Merkett,27.0,Massage therapist/bartender,"Pinetops, North Carolina",,2.0,5
+Anne-Catherine Labbé,27.0,Model/make-up artist,"Quebec City, Quebec",,2.0,5
+Amber LaRoux,27.0,Consultant,"Sunriver, Oregon",,2.0,5
+Mandy Clemens,25.0,Professional soccer player,"San Diego, California",,2.0,5
+Kristy Romero,25.0,Student,"Dearborn, Michigan",,2.0,5
+Celeste Creel,24.0,Model/executive assistant,"Ithaca, New York",,2.0,5
+Jenny Matthews,24.0,Retail manager,"Canton, Michigan",,2.0,5
+Dolores Farburg,26.0,Account manager,"Madison, New Jersey",,1.0,5
+Francine Jones,25.0,Retail manager,"Houston, Texas",,1.0,5
+DeShaun Warner,25.0,Account manager/sales,"Phillipsburg, New Jersey",,1.0,5
+Jessica Kyron,21.0,Student,"Cincinnati, Ohio",,1.0,5
+Holly Reeder,26.0,Bank representative,"Tulsa, Oklahoma",,1.0,5
+Rachel Clementi,26.0,Fashion public relations manager,"Buffalo, New York",,1.0,5
+Kristin Clearwater,25.0,Singer,"Sausalito, California",,1.0,5
+Jennifer Wilson,24.0,Teacher,"Pembroke Pines, Florida",,,9
+Sadie Murray,23.0,Publicist,"Carlsbad, California",,7.0,9
+Lisa Blank,25.0,Marketing manager,"Portland, Oregon",,6.0,9
+Agnese Polliza,24.0,Student,"Venice, Italy",,5.0,9
+Jeanette Pawula,23.0,Teacher,"Bloomingdale, Illinois",,4.0,9
+Desiree Valentin,22.0,Realtor,"Salt Lake City, Utah",,4.0,9
+Jami Matzke,27.0,Event planner,"Galveston, Texas",,3.0,9
+Gina Clark,28.0,Ultrasound technician,"Chicago, Illinois",,3.0,9
+Erica Rose,23.0,Socialite,"Houston, Texas",,3.0,9
+Sarah Schnare,30.0,Journalist,"Nelson, British Columbia",,2.0,9
+Kim Jackson,27.0,Interior designer,"Newport Beach, California",,2.0,9
+Ellen DeMaio,30.0,Realtor,"New Haven, Connecticut",,2.0,9
+Tara Durr,24.0,Realtor,"St. Augustine, Florida",,1.0,9
+Rosella Fratto,27.0,Make-up artist,"Chicago, Illinois",,1.0,9
+Rita Ghazal,29.0,Policy advisor,"Richmond, VA",,1.0,9
+Renee Snell,30.0,Broadcast marketer,"Baltimore, MD",,1.0,9
+Meri Barr,27.0,Attorney,"Biloxi, MS",,1.0,9
+Laura Morgan,29.0,Dolphin trainer,"San Diego, CA",,1.0,9
+Jessica Horner,25.0,Assistant buyer,"Charlotte, NC",,1.0,9
+Heather Sneed,34.0,Registered nurse,"Aliquippa, PA",,1.0,9
+Elyse Hammer,27.0,Physician,"New York, NY",,1.0,9
+Cosetta Blanca,,Dancer,Italy,,1.0,9
+Claudia Gismondi,22.0,Restaurateur,"Boca Raton, FL",,1.0,9
+Carissa Ilburg,25.0,Attorney,"Cattaraugus, NY",,1.0,9
+Britt (Bowe) Newton,28.0,Beer chemist,"Columbus, OH",,1.0,9
+Andrea Shirley,28.0,Hotel concierge,"Cincinnati, OH",,1.0,9
+April Jacobs,23.0,Model,"Chicago, IL",,1.0,9
+Tessa Horst,26.0,Social Worker,"San Francisco, California",,,10
+Bevin Nicole Powers,28.0,Assistant,"Palo Alto, California",,8.0,10
+Danielle Imwalle,25.0,Graphic Designer,"Bethel, Connecticut",,7.0,10
+Amber Alchalabi,23.0,Teacher,"Sugar Land, Texas",,6.0,10
+Stephanie Wilhite,23.0,Project Manager,"Overland Park, Kansas",,5.0,10
+Tina Wu,26.0,Medical student,"Los Angeles, California",,5.0,10
+Kate Brockhouse,24.0,Boutique owner,"Ravenel, South Carolina",,4.0,10
+Nicole Clary,26.0,Sales Manager,"Charleston, SC",,4.0,10
+Stephanie Tipper,27.0,Organ donor coordinator,"Folly Beach, SC",,4.0,10
+Amanda Hackney,26.0,Financial analyst,"Dallas, TX",,3.0,10
+Erin Parker,24.0,Financial analyst,"Logansport, LA",,3.0,10
+Peyton Wright,24.0,Sorority recruiter,"La Vergne, Tennessee",,3.0,10
+Alexis Young,26.0,Attorney,"Southlake, TX",,2.0,10
+Susan Anderson,23.0,Boutique manager,"The Woodlands, TX",,2.0,10
+Tiffany Warren,28.0,Medical equipment sales rep,"Boston, MA",,2.0,10
+Blakeney Rowe,29.0,Radio sales,"Birmingham, AL",,1.0,10
+Candace DeCost,23.0,Waitress,"Hilton Head Island, SC",,1.0,10
+Catherine Warren,23.0,Former Miss Illinois,"Lake Forest, IL",,1.0,10
+Danielle Vallis,26.0,Attorney,"Bronx, NY",,1.0,10
+Jackie Topelli,23.0,Executive coordinator,"Minneapolis, MN",,1.0,10
+Jeanette Alvarez,27.0,Health care manager,"Tampa, FL",,1.0,10
+Jessica Devallo,32.0,Hedge fund analyst,"New York, NY",,1.0,10
+Linda Malek,33.0,Attorney,"Cuyahoga Falls, OH",,1.0,10
+Lindsay Smith,22.0,Student,"Lawrence, KS",,1.0,10
+Tiffany Forester,27.0,Real estate sales/development,"St. Louis Park, MN",,1.0,10
+Deanna Pappas,25.0,Realtor,"Newnan, Georgia",,8.0,11
+Jenni Croft,27.0,Phoenix Suns Cheerleader,"Wichita, Kansas",,8.0,11
+Bettina Bell,27.0,Realtor,"Washington, D.C.",,7.0,11
+Sheena Stewart,23.0,Internet marketing executive,"Walnut Creek, California",,6.0,11
+Hillary Reisinger,27.0,Registered nurse,"Philadelphia, Pennsylvania",,5.0,11
+Kristy Katzmann,29.0,Acupuncturist,"Gurnee, Illinois",,5.0,11
+"Estefania ""Stephy"" Kootz",26.0,Executive assistant,"Atlanta, Georgia",,4.0,11
+Jade Beazley,24.0,Boutique sales worker,"Nashville, Tennessee",,4.0,11
+McCarten Delaney,26.0,Account manager,"Lemon Grove, California",,4.0,11
+Lindsey Hawkins,25.0,Model,"Livonia, Michigan",,3.0,11
+Sarah Newlon,23.0,Bar manager,"O'Fallon, Illinois",,3.0,11
+Solisa Shoop,25.0,Esthetician,"Georgetown, Texas",,3.0,11
+Michele Leavy,30.0,Realtor,"South Brunswick, New Jersey",,2.0,11
+Mallory Simons,24.0,Nanny,"Honolulu, Hawaii",,2.0,11
+Erin Gardner,25.0,Publishing sales executive,"Tampa, Florida",,2.0,11
+Jessica Kiss,27.0,News anchor,"Lady Lake, Florida",,1.0,11
+Juli Gilliam,24.0,Law student,"Chicago, Illinois",,1.0,11
+Kim Orville,31.0,Realtor,"Woodbridge, Connecticut",,1.0,11
+Lori Langley,33.0,Biology teacher,"Annapolis, Maryland",,1.0,11
+Melissa Buschel,28.0,Event planner,"Westchester, New York",,1.0,11
+Morgan Becker,24.0,Graduate student,"Tempe, Arizona",,1.0,11
+Natalie Velasco,25.0,Law student,"Duncanville, Texas",,1.0,11
+Regina Doringa,31.0,Account representative,"San Diego, California",,1.0,11
+Tauni Nessler ,31.0,Emergency room nurse,"St. Louis Park, Minnesota",,1.0,11
+Susan Stein,35.0,Project analyst,"St. Charles, Illinois",,1.0,11
+Shayne Lamas,22.0,Actress,"Malibu, California",,,12
+Chelsea Wanstrath,25.0,Pharmaceutical sales rep.,"Durango, Colorado",,8.0,12
+Amanda Rantuccio,27.0,Account Executive,"Niceville, Florida",,7.0,12
+Noelle Drake,26.0,Photographer,"Loveland, Colorado",,6.0,12
+Marshana Ritchie,27.0,Fashion designer,"Brooklyn, New York",,5.0,12
+Robin Canfield,22.0,Advertising coordinator,"Holland, Michigan",,5.0,12
+Ashlee Williss,22.0,Singer-songwriter,"Jacksonville Beach, Florida",,4.0,12
+Kelly Duncan,25.0,Medical sales rep.,"Hollywood, California",,4.0,12
+Holly Durst,24.0,Children's book author,"Suffield, Ohio",,4.0,12
+Amy,22.0,Nanny,"Stockton, California",,3.0,12
+Erin Storm,33.0,Hot-dog vendor,"Venice, California",,3.0,12
+Kristine Heffelfinger,33.0,Personal trainer,"Dillsburg, Pennsylvania",,3.0,12
+Carri Perrier,25.0,Church marketing rep.,"Oklahoma City, Oklahoma",,2.0,12
+Erin Harper,25.0,Event planner,"Seattle, Washington",,2.0,12
+Michelle P.,28.0,Administrative assistant,"Syracuse, New York",,2.0,12
+Alyssa,24.0,Biology student,"Boise, Idaho",,1.0,12
+Amanda Petterman,26.0,Law student,"LaFollette, Tennessee",,1.0,12
+Denise,30.0,Attorney and former White House aide,"Washington, D.C",,1.0,12
+Devon,24.0,Makeup artist,"Austin, Texas",,1.0,12
+Lesley Geyer,23.0,Youth minister,"Tampa, Florida",,1.0,12
+Michele R.,33.0,Interior designer,"Laguna Niguel, California",,1.0,12
+Rebecca,30.0,Attorney,"Alamo, California",,1.0,12
+Stacey Elza,26.0,Graduate student,"Chicago, Illinois",,1.0,12
+Tamara,23.0,Cocktail waitress,"Beverly Hills, California",,1.0,12
+Tiffany,33.0,Real estate marketing rep.,"San Francisco, California",,1.0,12
+Melissa Rycroft,25.0,Sales Representative,"Dallas, Texas",,,13
+Molly Malaney,24.0,Department Store Buyer,"Brookfield, Wisconsin",,8.0,13
+Jillian Harris,29.0,Interior Designer,"Peace River, Alberta",,7.0,13
+Naomi Rose Crespo,24.0,Flight Attendant,"Carlsbad, California",,6.0,13
+Stephanie Hogan,34.0,Single Mother & Medical Marketing Rep.,"Huntsville, Alabama",,5.0,13
+Lauren Wanger,27.0,Teacher,"Marlboro, New Jersey",,4.0,13
+Megan Parris,25.0,Single Mother and Lacrosse Coach,"Sewickley, Pennsylvania",,4.0,13
+Shannon Bair,29.0,Dental Hygienist,"Marshall, Missouri",,4.0,13
+"Nicole ""Nikki"" Kaapke",29.0,Administrative Assistant,"Blue Island, Illinois",,4.0,13
+Erica DeSimone,25.0,Account Executive,"Monroe, Connecticut",,3.0,13
+Kari Fajen,27.0,Account Executive,"Lee's Summit, Missouri",,3.0,13
+Natalie Getz,27.0,Human Resources Recruiter,"Morton, Illinois",,3.0,13
+Raquel Medeiros,27.0,Medical Student,"Recife, Pernambuco, Brazil",,2.0,13
+Sharon Staebell,32.0,Teacher,"Batavia, New York",,2.0,13
+Lisa Gonzalez,28.0,Public Relations Associate,"Boise, Idaho",,2.0,13
+Ann Lueders,24.0,Flight Attendant,"Phoenix, Arizona",,1.0,13
+Dominique Carta,26.0,Medical Sales Rep.,"Mt. Carmel, Pennsylvania",,1.0,13
+Emily,23.0,Casino Marketing Rep.,"Seattle, Washington",,1.0,13
+Jackie Hickey,26.0,Wedding Coordinator,"Springfield, Massachusetts",,1.0,13
+Julie Dermotta,26.0,Teacher,"Columbus, Ohio",,1.0,13
+Nicole Mah,25.0,Menswear Buyer,"Calgary, Alberta",,1.0,13
+Renee Simlak,36.0,Jewelry Designer,"Southfield, Michigan",,1.0,13
+Shelby,23.0,Account Executive,"Stockton, California",,1.0,13
+Stacia Mann,24.0,Single Mother & Charity Accountant,"Orem, Utah",,1.0,13
+Treasure Morgan,28.0,Single Mother and Nurse Practitioner,"Salt Lake City, Utah",,1.0,13
+Vienna Girardi,23.0,Marketing Representative,"Geneva, Florida",,,14
+Tenley Molzahn,25.0,College Admissions,"Newberg, Oregon",,8.0,14
+Gia Allemand,26.0,Swimsuit Model,"New York, New York",,7.0,14
+Ali Fedotowsky,25.0,Advertising Account Manager,"Williamstown, Massachusetts",,6.0,14
+Corrie Adamson,23.0,Wardrobe Consultant,"Kissimmee, Florida",,5.0,14
+Ashleigh Hunt,25.0,Account Manager,"North Potomac, Maryland",,4.0,14
+Jessie Sulidis,25.0,Cosmetic Sales Manager,"Oakville, Ontario",,4.0,14
+Kathryn Sherlock,25.0,Corporate Flight Attendant,"Lexington, Kentucky",,4.0,14
+Ella Nolan,30.0,Hair Stylist,"La Follette, Tennessee",,4.0,14
+Elizabeth Kitt (NE),29.0,Nanny,"Imperial, Nebraska",,3.0,14
+Valishia Savage,32.0,Homemaker,"San Bernardino, California",,3.0,14
+Michelle Kujawa,26.0,Office Manager,"Anaheim, California",,3.0,14
+Ashley Elmore,29.0,Teacher,"Pittsburgh, Pennsylvania",,2.0,14
+Christina McCasland,25.0,Restaurant Manager,"San Diego, California",,2.0,14
+Rozlyn Papa,28.0,Model/Make-Up Artist,"Richmond, Virginia",,2.0,14
+Alexa (Lex) McAllister,25.0,Entrepreneur,"Galloway, Ohio",,1.0,14
+Caitlyn McCabe,24.0,Spokesmodel,"Winfield, Illinois",,1.0,14
+Channy Choch,29.0,Mortgage Loan Officer,"Santa Rosa, California",,1.0,14
+Elizabeth Kreft (D.C.),29.0,"Captain, Air National Guard","Union, Kentucky",,1.0,14
+Emily Harkins,23.0,Fitness Model,"West Chester, Ohio",,1.0,14
+Kimberly Sullivan,24.0,NBA Dancer,"Norman, Oklahoma",,1.0,14
+Kirsten Pittman,25.0,Waitress,"Aurora, Colorado",,1.0,14
+Sheila Marie Lidner,25.0,Commercial Pilot,"Scottsdale, Arizona",,1.0,14
+Stephanie Mueller,24.0,Dance Teacher,"Morris, Illinois",,1.0,14
+Tiana Kruzel,31.0,Medical Technician,"Calgary, Alberta",,1.0,14
+Emily Maynard,25.0,Children's Hospital Event Planner,"Morgantown, West Virginia",,,15
+Chantal O'Brien,28.0,Executive Assistant,"Mercer Island, Washington",,10.0,15
+Ashley Hebert,26.0,Dental Student,"Madawaska, Maine",,9.0,15
+Shawntel Newton,25.0,Funeral Director,"Chico, California",,8.0,15
+Michelle Money,30.0,Hair stylist,"Salt Lake City, Utah",,7.0,15
+Britt Billmaier,25.0,Food writer,"Woodinville, Washington",,7.0,15
+Jackie Gordon,26.0,Artist,"Newport, Rhode Island",,6.0,15
+Alli Travis,24.0,Apparel merchant,"Columbus, Ohio",,6.0,15
+Lisa Morrisey,24.0,Marketing Coordinator,"Ottawa, Kansas",,5.0,15
+Marissa May,26.0,Sports Publicist,"Mesa, Arizona",,5.0,15
+Ashley Spivey,26.0,Nanny,"Ellerbe, North Carolina",,5.0,15
+Lindsay Hill,25.0,First grade teacher,"Plano, Texas",,4.0,15
+Meghan Merritt,30.0,Fashion Marketer,"Princeton, New Jersey",,4.0,15
+Stacey Quirpel,26.0,Bartender,"Quincy, Massachusetts",,4.0,15
+Kimberly Coon,27.0,Marketing Coordinator,"Orlando, Florida",,3.0,15
+Sarah Powell,27.0,Real Estate Broker,"Denver, Colorado",,3.0,15
+Madison Garton,25.0,Model,"Vail, Colorado",,3.0,15
+Keltie Colleen,28.0,Radio City Rockette,"Sherwood Park, Alberta",,2.0,15
+Melissa Schreiber,32.0,Waitress,"Westport, Connecticut",,2.0,15
+Raichel Goodyear,29.0,Manscaper,"Fullerton, California",,2.0,15
+Britnee,25.0,Paralegal,"Holland, Pennsylvania",,1.0,15
+Cristy Caserta,30.0,Attorney,"Davie, Florida",,1.0,15
+"Jessica ""J"" Adams",26.0,Operations Manager,"Seattle, Washington",,1.0,15
+Jill Ruskowski,28.0,Sales director,"Frisco, Texas",,1.0,15
+Lacey Garbelman,27.0,Insurance agent,"Tampa, Florida",,1.0,15
+Lauren Moore,26.0,High School Teacher,"Culpeper, Virginia",,1.0,15
+Lisa P.,27.0,Sales Consultant,"Dix Hills, New York",,1.0,15
+Rebecca,30.0,Esthetician,"Mission Viejo, California",,1.0,15
+Renee Halpin,28.0,Nanny,"Palos Hills, Illinois",,1.0,15
+Sarah Ledtke,25.0,Musical Theatre Performer,"Saginaw, Michigan",,1.0,15
+Courtney Robertson,28.0,Model,"Scottsdale, Arizona",,,16
+Lindzi Cox,27.0,Business development manager,"Newcastle, Washington",,10.0,16
+Nicki Sterling,26.0,Dental hygienist,"Hurst, Texas",,9.0,16
+Kacie Boguskie,24.0,Administrative assistant,"Clarksville, Tennessee",,8.0,16
+Emily O'Brien,27.0,PhD Student,"Chapel Hill, North Carolina",,7.0,16
+Rachel Truehart,27.0,Fashion sales representative,"Southampton, Massachusetts",,7.0,16
+Jamie Otis,25.0,Registered nurse,"Dryden, New York",,6.0,16
+Casey Shteamer,26.0,Trading clerk,"Leawood, Kansas",,6.0,16
+Blakeley Jones,33.0,VIP cocktail waitress,"Rutherfordton, North Carolina",,6.0,16
+Jennifer Fritsch,28.0,Accountant,"Cache, Oklahoma",,5.0,16
+Elyse Myers,24.0,Personal trainer,"Chicago, Illinois",,5.0,16
+Monica Spannbauer,33.0,Dental consultant,"Yuba, California",,4.0,16
+Samantha Levey,26.0,Advertising account manager,"Pittsburgh, Pennsylvania",,4.0,16
+Erika Uhlig,23.0,Law student,"Charlottesville, Virginia",,3.0,16
+Jaclyn Swartz,27.0,Advertising account manager,"Newton, Massachusetts",,3.0,16
+Brittney Schreiner,26.0,Medical sales representative,"Colorado Springs, Colorado",,3.0,16
+Jenna Burke,27.0,Blogger,"Loveland, Ohio",,2.0,16
+Shawn Reynolds,28.0,Financial advisor,"Cincinnati, Ohio",,2.0,16
+Amber Bacon,23.0,Labor and delivery nurse,"Port Coquitlam, British Columbia",,1.0,16
+Amber Tierney,28.0,Critical care nurse,"Waverly, Nebraska",,1.0,16
+Anna Snowball,25.0,Student,"Detroit, Michigan",,1.0,16
+Dianna Martinez,30.0,Nonprofit director,"San Gabriel, California",,1.0,16
+Holly Johnson,34.0,Pharmaceutical sales representative,"Salyersville, Kentucky",,1.0,16
+Lyndsie James,29.0,Internet entrepreneur,"London, England",,1.0,16
+Shira Astrof,35.0,Actress,"Massapequa Park, New York",,1.0,16
+Catherine Giudici,26.0,Graphic Designer,"Seattle, Washington",,,17
+Lindsay Yenter,24.0,Substitute Teacher,"Fort Bragg, North Carolina",,10.0,17
+AshLee Frazier,32.0,Personal Organizer,"Houston, Texas",,9.0,17
+Desiree Hartsock,26.0,Bridal Stylist,"Northglenn, Colorado",,8.0,17
+Lesley Murphy,24.0,Political Consultant,"Fort Smith, Arkansas",,7.0,17
+Tierra LiCausi,24.0,Leasing Consultant,"Las Vegas, Nevada",,7.0,17
+Daniella McBride,24.0,Commercial Casting Associate,"Belmont, California",,6.0,17
+Selma Alameri,29.0,Real Estate Dealer,"Borrego Springs, California",,6.0,17
+Sarah Herron,26.0,Advertising Executive,"Evergreen, Colorado",,6.0,17
+Robyn Howard,24.0,Oil Field Account Manager,"Topeka, Kansas",,5.0,17
+Jackie Parr,25.0,Cosmetics Consultant,"Ormond Beach, Florida",,5.0,17
+Amanda Meyer,26.0,Fit Model,"Bakersfield, California",,4.0,17
+Leslie Hughes,28.0,Poker Dealer,"Ruskin, Florida",,4.0,17
+Kristy Kaminski,25.0,Model,"Darien, Wisconsin",,3.0,17
+Taryn Renee Daniels,30.0,Health Club Manager,"Troutdale, Oregon",,3.0,17
+Kacie Boguskie,25.0,Administrative Assistant,"Clarksville, Tennessee",,3.0,17
+Brooke Burchette,25.0,Community Organizer,"Pittsburgh, Pennsylvania",,2.0,17
+Diana Weeks Willardson,31.0,Salon Owner,"Sandy, Utah",,2.0,17
+Katie Levans,27.0,Yoga Instructor,"Woodstock, Illinois",,2.0,17
+Ashley Harper,25.0,Fashion Model,"Garner, North Carolina",,1.0,17
+Ashley Palenkas,28.0,Hair Stylist,"Macomb, Michigan",,1.0,17
+Kelly Dutton,28.0,Cruise Ship Entertainer,"Chattanooga, Tennessee",,1.0,17
+Keriann Miranda,29.0,Entrepreneur,"Agoura Hills, California",,1.0,17
+Lacey Latka,24.0,Graduate Student,"Stevenson Ranch, California",,1.0,17
+Lauren Marchetti,27.0,Journalist,"Cranston, Rhode Island",,1.0,17
+Paige Vigil,25.0,Jumbotron Operator,"Minnetonka, Minnesota",,1.0,17
+Nikki Ferrell,26.0,Pediatric Nurse,"Kearney, Missouri",,,18
+Clare Crawley,32.0,Hairstylist,"Sacramento, California",,10.0,18
+Andi Dorfman,26.0,Assistant District Attorney,"Buckhead, Georgia",,9.0,18
+Renee Oteri,32.0,Real Estate Agent,"Martha's Vineyard, Massachusetts",,8.0,18
+Chelsie Webster,24.0,Science Educator,"Lexington, Ohio",,7.0,18
+Sharleen Joynt,29.0,Opera Singer,"Ottawa, Ontario",,7.0,18
+Kat Hurd,29.0,Medical Sales Representative/NBA Dancer,"Iowa City, Iowa",,6.0,18
+Cassandra Ferguson,22.0,Former NBA Dancer,"Shelby Charter Township, Michigan",,6.0,18
+Alli Restko,26.0,Nanny,"Orland Park, Illinois",,5.0,18
+Danielle Ronco,25.0,Psychiatric Nurse,"Litchfield, Illinois",,5.0,18
+Kelly Travis,27.0,Dog Lover,"Conyers, Georgia",,5.0,18
+Elise Mosca,27.0,First Grade Teacher,"Forty Fort, Pennsylvania",,4.0,18
+Lauren Solomon,26.0,Music Composer,"Austin, Texas",,4.0,18
+Christy Hansen,24.0,Marketing Manager,"Aurora, Illinois",,3.0,18
+"Lucinda ""Lucy"" Aragon",25.0,Free Spirit,"Santa Barbara, California",,3.0,18
+Amy Long,27.0,Local News Reporter,"Clermont, Florida",,2.0,18
+Chantel Forrest,27.0,Account Manager,"Miami, Florida",,2.0,18
+Victoria Lima,24.0,Legal Assistant,"Porto Alegre, Brazil",,2.0,18
+Alexis Morgado,24.0,Communications Director/NHL Ice Girl,"Tampa, Florida",,1.0,18
+Amy Jokinen,31.0,Massage Therapist,"Apopka, Florida",,1.0,18
+Ashley Poe,25.0,Grade School Teacher,"Roanoke, Texas",,1.0,18
+Christine Llano,23.0,Police Support Specialist,"Miami, Florida",,1.0,18
+Kylie Lewis,23.0,Interior Designer,"Rockford, Illinois",,1.0,18
+Lacy Faddoul,25.0,Nursing Home Owner,"Antelope Acres, California",,1.0,18
+Lauren Higginson,25.0,Mineral Coordinator,"Edmond, Oklahoma",,1.0,18
+Maggie Gantt,25.0,Personal Banker,"Wagener, South Carolina",,1.0,18
+Valerie Eredia,26.0,Personal Trainer,"Sutter, California",,1.0,18
+Whitney Bischoff,29.0,Fertility Nurse,"Louisville, Kentucky",,,19
+Becca Tilley,25.0,Chiropractic Assistant,"Shreveport, Louisiana",,10.0,19
+Kaitlyn Bristowe,29.0,Dance Instructor,"Leduc, Alberta",,9.0,19
+Jade Roper,28.0,Cosmetics Developer,"Gering, Nebraska",,8.0,19
+Carly Waddell,29.0,Cruise Ship Singer,"Arlington, Texas",,7.0,19
+Britt Nilsson,27.0,Waitress,"Wolcott Mills, Michigan",,7.0,19
+Megan Bell,24.0,Make-Up Artist,"Nashville, Tennessee",,6.0,19
+Kelsey Poe,28.0,Guidance Counselor,"Hudsonville, Michigan",,6.0,19
+Ashley Iaconetti,26.0,Nanny/Freelance Journalist,"Great Falls, Virginia",,6.0,19
+Mackenzie Deonigi,21.0,Dental Assistant,"Maple Valley, Washington",,5.0,19
+Samantha Steffen,27.0,Fashion Designer,"Indianapolis, Indiana",,5.0,19
+Ashley Salter,24.0,Hair Stylist,"Vinings, Georgia",,4.0,19
+Juelia Kinney,30.0,Esthetician,"Beaverton, Oregon",,4.0,19
+Nikki Delventhal,26.0,Former NFL Cheerleader,"Hasbrouck Heights, New Jersey",,4.0,19
+Jillian Anderson,25.0,News Producer,"Howland, Ohio",,4.0,19
+Amber James,29.0,Bartender,"Kankakee, Illinois",,3.0,19
+Tracy Darakis,29.0,Fourth Grade Teacher,"Wellington, Florida",,3.0,19
+Trina Scherenberg,33.0,Special Education Teacher,"Algonquin, Illinois",,3.0,19
+Alissa Giambrone,24.0,Flight Attendant,"Hamilton, New Jersey",,2.0,19
+Jordan Branch,24.0,Student,"Windsor, Colorado",,2.0,19
+Kimberly Sherbach,28.0,Yoga Instructor,"Wantagh, New York",,2.0,19
+Tandra Steiner,30.0,Executive Assistant,"Sandy, Utah",,2.0,19
+Tara Eddings,26.0,Sport Fishing Enthusiast,"Fort Lauderdale, Florida",,2.0,19
+Amanda Goerlitz,24.0,Ballet Teacher,"Lake in the Hills, Illinois",,1.0,19
+Bo Stanley,25.0,Plus-Size Model,"Carpinteria, California",,1.0,19
+Brittany Fetkin,26.0,WWE Diva-in-Training,"Temecula, California",,1.0,19
+Kara Wilson,25.0,High School Soccer Coach,"Brownsville, Kentucky",,1.0,19
+Michelle Davis,25.0,Wedding Cake Baker,"Provo, Utah",,1.0,19
+Nicole Meacham,31.0,Real Estate Agent,"Scottsdale, Arizona",,1.0,19
+Reegan Cornwell,28.0,Cadaver Tissue Saleswoman,"Manhattan Beach, California",,1.0,19
+Lauren Bushnell,25.0,Flight Attendant,"West Linn, Oregon",,,20
+"Joelle ""JoJo"" Fletcher",24.0,Real Estate Developer,"Dallas, Texas",,10.0,20
+Caila Quinn,24.0,Software Sales Representative,"Hudson, Ohio",,9.0,20
+Amanda Stanton,25.0,Esthetician,"Rancho Santa Margarita, California",,8.0,20
+Becca Tilley,26.0,Chiropractic Assistant,"Shreveport, Louisiana",,7.0,20
+Emily Ferguson,23.0,Waitress,"Las Vegas, Nevada",,7.0,20
+Lauren Himle,25.0,Kindergarten Teacher,"Dexter, Michigan",,6.0,20
+Olivia Caridi,23.0,Former News Anchor,"Bristol, Virginia",,6.0,20
+Leah Block,25.0,Event Planner,"Greenwood Village, Colorado",,6.0,20
+Jennifer Saviano,25.0,Small Business Owner,"Lauderdale Lakes, Florida",,5.0,20
+Jubilee Sharpe,24.0,War Veteran,"Fort Lauderdale, Florida",,5.0,20
+Amber James,30.0,Bartender,"Kankakee, Illinois",,4.0,20
+Rachel Tchen,23.0,Unemployed,"Little Rock, Arkansas",,4.0,20
+Haley Ferguson,23.0,Waitress,"Las Vegas, Nevada",,4.0,20
+Jami Letain,23.0,Bartender,"St. Albert, Alberta",,3.0,20
+Shushanna Mkrtychyan,27.0,Mathematician,"Salt Lake City, Utah",,3.0,20
+Lace Morris,25.0,Real Estate Agent,"Denver, Colorado",,3.0,20
+"Amanda ""Mandi"" Kremer",28.0,Dentist,"Portland, Oregon",,2.0,20
+"Jacqueline ""Jackie"" Dion",23.0,Gerontologist,"Newport Beach, California",,2.0,20
+Samantha Passmore,26.0,Attorney,"New Smyrna Beach, Florida",,2.0,20
+"Lauren ""LB"" Barr",23.0,Fashion Buyer,"Stillwater, Oklahoma",,2.0,20
+Breanne Rice,30.0,Nutritional Therapist,"Seattle, Washington",,1.0,20
+"Isabel ""Izzy"" Goodkind",24.0,Graphic Designer,"Branford, Connecticut",,1.0,20
+Jessica Moser,23.0,Accountant,"Boca Raton, Florida",,1.0,20
+Laura Esselman,24.0,Account Executive,"Louisville, Kentucky",,1.0,20
+Lauren Russell,26.0,Math Teacher,"Houston, Texas",,1.0,20
+Maegan Miller,30.0,Cowgirl,"Visalia, California",,1.0,20
+Tiara Soleim,27.0,Chicken Enthusiast,"Redmond, Washington",,1.0,20
+Alexis,23.0,Aspiring Dolphin Trainer,"Secaucus, NJ",66.0,5.0,21
+Angela,26.0,Model,"Greenville, SC",67.0,1.0,21
+Astrid,26.0,Plastic Surgery Office Manager,"Tampa, FL",67.5,4.0,21
+Briana,28.0,Surgical Unit Nurse,"Salt Lake City, UT",64.0,1.0,21
+Brittany,26.0,Travel Nurse,"Santa Monica, CA",62.0,3.0,21
+Christen,25.0,Wedding Videographer,"Tulsa, OK",65.0,3.0,21
+Corinne,24.0,Business Owner,"Miami, FL",61.0,8.0,21
+Danielle L.,27.0,Small Business Owner,"Los Angeles, CA",65.0,6.0,21
+Danielle M.,31.0,Neonatal Nurse,"Nashville, TN",70.0,7.0,21
+Dominique,25.0,Restaurant Server,"Los Angeles, CA",64.0,3.0,21
+Liz,29.0,Doula,"Las Vegas, NV",64.0,2.0,21
+Elizabeth,24.0,Marketing Manager,"Dallas, TX",67.0,2.0,21
+Hailey,23.0,Photographer,"Vancouver, British Columbia, Canada",67.0,2.0,21
+Ida Marie,23.0,Sales Manager,"Harlingen, TX",68.0,1.0,21
+Jaimi,28.0,Chef,"New Orleans, LA",62.0,5.0,21
+Jasmine B.,25.0,Flight Attendant,"Tacoma, WA",62.5,1.0,21
+Jasmine G.,29.0,Pro Basketball Dancer,"San Francisco, CA",67.0,6.0,21
+Josephine,24.0,Registered Nurse,"Santa Cruz, CA",67.75,5.0,21
+Kristina,24.0,Dental Hygienist,"Lexington, KY",62.0,7.0,21
+Lacey,25.0,Digital Marketing Manager,"Manhattan, NY",63.0,2.0,21
+Lauren,30.0,Law School Graduate,"Naples, FL",67.0,1.0,21
+Michelle,24.0,Food Truck Owner,"Los Angeles, CA",61.0,1.0,21
+Olivia,25.0,Apparel Sales Representative,"Anchorage, AK",67.0,1.0,21
+Rachel,31.0,Attorney,"Dallas, TX",64.0,,21
+Raven,25.0,Fashion Boutique Owner,"Hoxie, AR",66.0,,21
+Sarah,26.0,Grade School Teacher,"Newport Beach, CA",65.0,4.0,21
+Susannah,26.0,Account Manager,"San Diego, CA",66.0,1.0,21
+Taylor,23.0,Mental Health Counselor,"Seattle, WA",64.0,5.0,21
+Vanessa,29.0,Special Education Teacher,"Montreal, Quebec, Canada",63.5,,21
+Whitney,25.0,Pilates Instructor,"Chanhassen, MN",68.0,6.0,21

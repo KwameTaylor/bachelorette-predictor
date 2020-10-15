@@ -1,0 +1,4 @@
+## Bachelorette Prediction Project
+### Datasets from Kaggle
+
+This folder holds the .csv files of datasets I downloaded on Kaggle, from Kaggle user <a href="https://www.kaggle.com/brianbgonz/the-bachelorette-contestants">brianbgonz</a>, as well as from <a href="https://www.kaggle.com/fivethirtyeight/fivethirtyeight-bachelorette-dataset">FiveThirtyEight and ABC</a>, with demographic data on contestants from seasons 1, 2, 5, 9-21 of ABC's The Bachelor and 1-12 of The Bachelorette, and data about contestant eliminations and dates, respectively. I won't be using these datasets in my first iteration of this project, but I will want to use them to improve my MVP model for Bachelorette contestant win predictions. I could also use this data to predict likely demographics of a future contestant, Bachelor, or Bachelorette.
