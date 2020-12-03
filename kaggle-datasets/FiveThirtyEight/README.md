@@ -6,7 +6,7 @@ This folder contains the data behind the stories:
 - [Rachel’s Season Is Fitting Neatly Into ‘Bachelorette’ History](https://fivethirtyeight.com/features/rachels-season-is-fitting-neatly-into-bachelorette-history/)
 - [Rachel Lindsay’s ‘Bachelorette’ Season, In Three Charts](https://fivethirtyeight.com/features/rachel-lindsays-bachelorette-season-in-three-charts/)
 
-Data was scraped from the [Bachelor Nation Wiki](http://bachelor-nation.wikia.com/wiki/Bachelor_Nation_Wikia) and then missing seasons were filled in by ABC and FiveThirtyEight staffers.
+Data was scraped from the [Bachelor Nation Wiki](http://bachelor-nation.wikia.com/wiki/Bachelor_Nation_Wikia) and then missing seasons were filled in by ABC and [FiveThirtyEight](https://github.com/fivethirtyeight/) staffers.
 
 Header          | Description
 ----------------|------------
