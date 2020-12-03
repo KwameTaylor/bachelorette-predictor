@@ -1,4 +1,4 @@
-# Bachelorette Prediction Project
+# The Bachelorette Predictor
 ## Kwame V. Taylor
 
 The goal of this project is to create a machine learning model that accurately predicts which contestant will win a given season of the NBC reality show The Bachelorette, based on data from Season 11 (train), Season 12 (validate), and Season 13 (test).
