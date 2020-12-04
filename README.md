@@ -1,9 +1,9 @@
 # The Bachelorette Predictor
 ### Kwame V. Taylor
 
-The goal of this project is to create a machine learning model that accurately predicts which contestant will win a given season of the ABC reality show The Bachelorette, based on data from Season 11 (train), Season 12 (validate), and Season 13 (test).
+The goal of this project is to create a machine learning model that accurately predicts which contestant will win a given season of the ABC reality show The Bachelorette, based on data from Seasons 1-2 and 4-9 (train), Season 10 & 11 (validate), and Seasons 11 & 12 (test).
 
-A note on transparency -- I have not seen any of the above selected seasons of the show. I have, however, seen Season 15 of The Bachelorette, and I am currently watching Season 16. I have left Season 14 out of the data for the sake of time efficiency, as I would have to scrape that data myself from the Bachelor Nation Wiki, since the FiveThirtyEight data has not been updated past Season 13. I may include Season 14 in a future iteration.
+A note on transparency -- I have not seen any of the above selected seasons of the show. I have, however, seen Season 15 of The Bachelorette, and I am currently watching Season 16. <!--I have left Season 13 and 14 out of the data for the sake of time efficiency, as I would have to scrape that data myself from the Bachelor Nation Wiki, since the FiveThirtyEight data has not been updated past Season 13.--> I may include Seasons 3, 13, and 14 in a future iteration of this project.
 
 <img src="https://static.tumblr.com/c8504796ecc695283d1e8af5c7f137c9/oig2scu/qjlo45s32/tumblr_static_8e9p6wr2jy0wks8c4004w8k4s.png">
 
@@ -69,8 +69,8 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 * Finetune Google slides
 * Practice presentation & type up speaker notes
 
-<!-- **Things I'll save for future iterations for the sake of time:**
-* -->
+**Things I'll save for future iterations for the sake of time:**
+* Incorporate more of the data, including more features
 
 ---
 
