@@ -3,11 +3,18 @@ import pandas as pd
 import re
 
 def acquire_data():
+    '''
+    This functions acquire both datasets needed for this project via .csv files.
+    '''
     df = pd.read_csv('bachelorette-contestants.csv')
     join = pd.read_csv('bachelorette_edit-to-join.csv')
     return df, join
 
-def clean_names(df, join):
+def join_dfs(df, join):
+    '''
+    This functions joins two Bachelorette datasets together,
+    first by making the contestant names compatiable to join on.
+    '''
     # Get last initials
     df['last_initial'] = df['Name'].str.extract(r'( \w{1})')
     df.last_initial = df.last_initial.fillna('X')
@@ -30,5 +37,15 @@ def clean_names(df, join):
     new_df = new_df.drop(columns=['last_initial', 'first_name', 'SEASON'])
     # set the index
     new_df = new_df.set_index('CONTESTANT')
-    
+
     return new_df
+
+def drop_extra_cols(df):
+    '''
+    This function drops unneeded columns/features in
+    a Bachelorette data df, and returns a df.
+    '''
+    df = df.drop(columns=['ELIMINATION-1', 'ELIMINATION-2', 'ELIMINATION-3', 'ELIMINATION-4',
+       'ELIMINATION-5', 'ELIMINATION-6', 'ELIMINATION-7', 'ELIMINATION-8',
+       'ELIMINATION-9', 'ELIMINATION-10', 'Hometown', 'Occupation', 'Name', 'Season', 'DATES-1'])
+    return df

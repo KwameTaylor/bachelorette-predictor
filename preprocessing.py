@@ -7,16 +7,6 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression, LassoLars, TweedieRegressor
 
-def drop_cols(df):
-    '''
-    This function drops unneeded columns/features in
-    a Bachelorette data df, and returns a df.
-    '''
-    df = df.drop(columns=['ELIMINATION-1', 'ELIMINATION-2', 'ELIMINATION-3', 'ELIMINATION-4',
-       'ELIMINATION-5', 'ELIMINATION-6', 'ELIMINATION-7', 'ELIMINATION-8',
-       'ELIMINATION-9', 'ELIMINATION-10', 'Hometown', 'Occupation', 'Name', 'Season', 'DATES-1'])
-    return df
-
 def remove_Ds(df, col):
     '''
     This functions removes the 'D' at the
