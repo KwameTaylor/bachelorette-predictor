@@ -134,4 +134,5 @@ The code in here was developed on MacOS, but should run fine anywhere you can in
 * <a href="https://www.kaggle.com/fivethirtyeight/fivethirtyeight-bachelorette-dataset">FiveThirtyEight and ABC</a> for their work in collecting the data I used in this project.
 * <a href="https://alexjs.com/">Alex</a> (via the alexLinter extension on VS Code) for helping me catch insensitive and inconsiderate writing in my README
 * <a href="https://dardenreviews.github.io/">Faith's Darden reviews</a>
+* <a href="https://stats.stackexchange.com/questions/282803/response-is-an-integer-should-i-use-classification-or-regression">This post on Stats StackExchange</a>, which help me decided whether to use classification or regression.
 * And extra big thanks to the Codeup data science instructors and my Codeup Darden cohort colleagues for being constant sources of knowledge, help, and motivation!
