@@ -107,7 +107,9 @@ Instructions for use and reproduction:
 ## Main notebook
 To see and read through the main notebook, you can navigate to ```bachelorette-predictor.ipynb``` in this GitHub repository.
 
-You can explore the functions from the notebook more indepth in the ```wrangle.py```, ```preprocessing.py```, ```explore.py```, and ```model.py``` files.
+You can explore the functions from the notebooks more concisely in the ```wrangle.py```, ```preprocessing.py```, ```explore.py```, and ```model.py``` files.
+
+You can read about my thought process for this project more indepth, if you'd like, in the corresponding ```.ipynb``` files for ```wrangle```, ```preprocessing```, ```explore```, and ```model```.
 
 ## Setup
 
