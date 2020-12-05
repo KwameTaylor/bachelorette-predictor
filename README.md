@@ -126,9 +126,9 @@ The code in here was developed on MacOS, but should run fine anywhere you can in
 
 ### Big thanks to the following resources for resources, education, and inspiration:
 * The <a href="https://codeup.com/">Codeup</a> data science curriculum
-* <a href="https://abc.com/shows/the-bachelorette">ABC's The Bachelorette!</a>
+* <a href="https://abc.com/shows/the-bachelorette">ABC's The Bachelorette</a>!
 * The <a href="https://bachelor-nation.fandom.com/wiki/Bachelor_Nation_Wiki">Bachelor Nation Wiki</a>
-* <a href="https://www.kaggle.com/fivethirtyeight/fivethirtyeight-bachelorette-dataset">FiveThirtyEight and ABC</a>
+* <a href="https://www.kaggle.com/fivethirtyeight/fivethirtyeight-bachelorette-dataset">FiveThirtyEight and ABC</a> for their work in collecting the data I used in this project.
 * <a href="https://alexjs.com/">Alex</a> (via the alexLinter extension on VS Code) for helping me catch insensitive and inconsiderate writing in my README
 * <a href="https://dardenreviews.github.io/">Faith's Darden reviews</a>
 * And extra big thanks to my Codeup Darden cohort colleagues and the Codeup data science instructors for being constant sources of knowledge, help, and motivation!
