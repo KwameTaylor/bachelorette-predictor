@@ -12,9 +12,9 @@ A note on transparency -- I have not seen any of the above selected seasons of t
 ## Background
 
 From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
-> ***The Bachelorette*** is an American reality television dating game show that debuted on ABC on January 8, 2003. The show is a spin-off of The Bachelor and the staple part of The Bachelor franchise. The first season featured Trista Rehn, the runner-up from the first season of The Bachelor, offering the opportunity for Rehn to choose a husband among 25 bachelors.
+> ***The Bachelorette*** is an American reality television dating game show that debuted on ABC on January 8, 2003. The show is a spin-off of The Bachelor and the staple part of The Bachelor franchise. The first season featured Trista Rehn, the runner-up from the first season of The Bachelor, offering the opportunity for Rehn to choose a [spouse] among 25 bachelors.
 
-> All of the rules are adapted from the rules of The Bachelor—its parent show. As the name implies, the series revolves around a single bachelorette, usually a former contestant from the previous Bachelor season, and a pool of romantic interests ... which could include a potential husband for the bachelorette; it is essentially a gender-reversed version of the parent show. The show starts with the bachelorette standing in front of the mansion and greeting each male contestant individually, as they make an entrance to the bachelorette. After each rose ceremony, at least one contestant does not receive a rose and goes home; therefore, the pool of contenders gets smaller, and eventually leaves the bachelorette to decide between two contestants in the final rose ceremony.
+> All of the rules are adapted from the rules of The Bachelor—its parent show. As the name implies, the series revolves around a single bachelorette, usually a former contestant from the previous Bachelor season, and a pool of romantic interests [...] which could include a potential [spouse] for the bachelorette; it is essentially a gender-reversed version of the parent show. The show starts with the bachelorette standing in front of the mansion and greeting each male contestant individually, as they make an entrance to the bachelorette. After each rose ceremony, at least one contestant does not receive a rose and goes home; therefore, the pool of contenders gets smaller, and eventually leaves the bachelorette to decide between two contestants in the final rose ceremony.
 
 > For the final selection, one of two male suitors proposes to the bachelorette. Unlike its parent show, all fifteen seasons of The Bachelorette have ended with a proposal which the bachelorette either accepted or declined.
 
@@ -77,6 +77,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 * Incorporate more of the data, including more features
 * Add feature: contestant's hometown's proximity to that season's bachelorette's hometown
 * Add feature: Received a first impression rose
+* Add analysis of the data as a time series (sampled by week)
 
 ---
 
