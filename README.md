@@ -14,7 +14,7 @@ A note on transparency -- I have not seen any of the above selected seasons of t
 From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 > ***The Bachelorette*** is an American reality television dating game show that debuted on ABC on January 8, 2003. The show is a spin-off of The Bachelor and the staple part of The Bachelor franchise. The first season featured Trista Rehn, the runner-up from the first season of The Bachelor, offering the opportunity for Rehn to choose a [spouse] among 25 bachelors.
 
-> All of the rules are adapted from the rules of The Bachelor—its parent show. As the name implies, the series revolves around a single bachelorette, usually a former contestant from the previous Bachelor season, and a pool of romantic interests [...] which could include a potential [spouse] for the bachelorette; it is essentially a gender-reversed version of the parent show. The show starts with the bachelorette standing in front of the mansion and greeting each male contestant individually, as they make an entrance to the bachelorette. After each rose ceremony, at least one contestant does not receive a rose and goes home; therefore, the pool of contenders gets smaller, and eventually leaves the bachelorette to decide between two contestants in the final rose ceremony.
+> All of the rules are adapted from the rules of The Bachelor—its parent show. As the name implies, the series revolves around a single bachelorette, usually a former contestant from the previous Bachelor season, and a pool of romantic interests [...] which could include a potential [spouse] for the bachelorette; it is essentially a gender-reversed version of the parent show. The show starts with the bachelorette standing in front of the mansion and greeting each contestant individually, as they make an entrance to the bachelorette. After each rose ceremony, at least one contestant does not receive a rose and goes home; therefore, the pool of contenders gets smaller, and eventually leaves the bachelorette to decide between two contestants in the final rose ceremony.
 
 > For the final selection, one of two male suitors proposes to the bachelorette. Unlike its parent show, all fifteen seasons of The Bachelorette have ended with a proposal which the bachelorette either accepted or declined.
 
@@ -120,12 +120,12 @@ In order to run the code in this repository, you'll need:
 
 The code in here was developed on MacOS, but should run fine anywhere you can install python + anaconda.
 
-<!--
 ---
 
 ### Big thanks to the following resources for education and inspiration:
 * <a href="https://ds.codeup.com/">Codeup curriculum</a>
-* <a href="https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9">Simple and Multiple Linear Regression in Python</a>
+* <a href="https://alexjs.com/">Alex</a> (via the alexLinter extension on VS Code) for helping me catch insensitive and inconsiderate writing in my README
+<!-- * <a href="https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9">Simple and Multiple Linear Regression in Python</a>
 * <a href="https://geopy.readthedocs.io/en/stable/">GeoPy</a>
 * <a href="https://machinelearningmastery.com/model-based-outlier-detection-and-removal-in-python/">4 Automatic Outlier Detection Algorithms in Python</a>
 * <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html">Isolation Forest documentation</a>
@@ -136,7 +136,6 @@ The code in here was developed on MacOS, but should run fine anywhere you can in
 * <a href="https://apps.gis.ucla.edu/geodata/en/dataset/world_elevation_contours">World Elevation Contours data from UCLA</a>
 * <a href="https://apps.gis.ucla.edu/geodata/dataset/california-public-schools">California school districts data from UCLA</a>
 * <a href="https://www.cde.ca.gov/ds/si/ds/pubschls.asp">California school districts from CA's DoE</a>
-* <a href="https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1">Understanding K-means Clustering in Machine Learning</a>
+* <a href="https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1">Understanding K-means Clustering in Machine Learning</a> -->
 * <a href="https://dardenreviews.github.io/">Faith's Darden reviews, of course!</a>
-* And extra big thanks to my Codeup Darden cohort colleagues for being a constant source of knowledge, help, and motivation!
--->
+* And extra big thanks to my Codeup Darden cohort colleagues and the Codeup Data Science instructors for being constant sources of knowledge, help, and motivation!
