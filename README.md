@@ -76,6 +76,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 **Things I'll save for future iterations for the sake of time:**
 * Incorporate more of the data, including more features
 * Add feature: contestant's hometown's proximity to that season's bachelorette's hometown
+* Add feature: Received a first impression rose
 
 ---
 
