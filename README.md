@@ -5,7 +5,7 @@ The goal of this project is to create a machine learning model that accurately p
 
 A note on transparency -- I have not seen any of the above selected seasons of the show. I have, however, seen Season 15 of The Bachelorette, and I am currently watching Season 16. <!--I have left Season 13 and 14 out of the data for the sake of time efficiency, as I would have to scrape that data myself from the Bachelor Nation Wiki, since the FiveThirtyEight data has not been updated past Season 13.--> I may include Seasons 3, 13, and 14 in a future iteration of this project.
 
-**Warning: This project contains *many* spoilers.** Proceed at your own risk.
+**Warning: This project contains *many* spoilers for past seasons.** Proceed at your own risk.
 
 <img src="https://static.tumblr.com/c8504796ecc695283d1e8af5c7f137c9/oig2scu/qjlo45s32/tumblr_static_8e9p6wr2jy0wks8c4004w8k4s.png">
 
@@ -76,7 +76,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 * Practice presentation & type up speaker notes
 
 **Things I'll save for future iterations for the sake of time:**
-* Incorporate more of the data, including more features
+* Incorporate more of the existing data
 * Add feature: contestant's hometown's proximity to that season's bachelorette's hometown
 * Add feature: Received a first impression rose
 * Add analysis of the data as a time series (sampled by week)
@@ -111,10 +111,11 @@ You can explore the functions from the notebook more indepth in the ```wrangle.p
 
 ## Setup
 
-In order to run the code in this repository, you'll need:
+In order to run the code in this repository, you'll need to:
 
-1. An installation of python through anaconda
-2. A local clone of this repository
+1. Have an installation of python through anaconda
+2. Clone this repository
+3. Copy or move the .csv files from ```kaggle-datasets/``` and ```kaggle-datasets/FiveThirtyEight/``` into the main repository folder
 <!--3. An ```env.py``` file that defines the following variables:
   - 'user'
   - 'host'
