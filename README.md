@@ -20,6 +20,8 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 
 [![9 Things You’ve ALWAYS Wanted To Know About The Bachelor](https://img.youtube.com/vi/p-Jr8iNdXOQ/0.jpg)](https://www.youtube.com/watch?v=p-Jr8iNdXOQ)
 
+9 Things You’ve ALWAYS Wanted To Know About The Bachelor
+
 ---
 
 ## Project Plan
