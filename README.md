@@ -18,7 +18,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 
 > For the final selection, one of two male suitors proposes to the bachelorette. Unlike its parent show, all fifteen seasons of The Bachelorette have ended with a proposal which the bachelorette either accepted or declined.
 
-[![9 Things You’ve ALWAYS Wanted To Know About The Bachelor](https://img.youtube.com/vi/p-Jr8iNdXOQ/0.jpg)](https://www.youtube.com/watch?v=p-Jr8iNdXOQ?target=_blank)
+[![9 Things You’ve ALWAYS Wanted To Know About The Bachelor](https://img.youtube.com/vi/p-Jr8iNdXOQ/0.jpg)](https://www.youtube.com/watch?v=p-Jr8iNdXOQ "9 Things You’ve ALWAYS Wanted To Know About The Bachelor" target="_blank")
 
 ---
 
