@@ -151,4 +151,4 @@ def train_validate_test(df, target):
     
     print('Shape of train:', X_train.shape, '| Shape of validate:', X_validate.shape, '| Shape of test:', X_test.shape)
 
-    return X_train, y_train, X_validate, y_validate, X_test, y_test
+    return X_train, y_train, X_validate, y_validate, X_test, y_test, train, validate, test
