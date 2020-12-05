@@ -118,6 +118,8 @@ def handle_dates_and_elims(df):
        'Dates5-Calculated', 'Dates6-Calculated', 'Dates7-Calculated',
        'Dates8-Calculated', 'Dates9-Calculated', 'Dates10-Calculated'])
 
+    return df
+
 def train_validate_test(df, target):
     '''
     this function takes in a dataframe and splits it into 3 samples, 
