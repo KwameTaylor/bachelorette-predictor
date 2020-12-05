@@ -123,19 +123,7 @@ The code in here was developed on MacOS, but should run fine anywhere you can in
 ---
 
 ### Big thanks to the following resources for education and inspiration:
-* <a href="https://ds.codeup.com/">Codeup curriculum</a>
+* The Codeup data science curriculum
 * <a href="https://alexjs.com/">Alex</a> (via the alexLinter extension on VS Code) for helping me catch insensitive and inconsiderate writing in my README
-<!-- * <a href="https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9">Simple and Multiple Linear Regression in Python</a>
-* <a href="https://geopy.readthedocs.io/en/stable/">GeoPy</a>
-* <a href="https://machinelearningmastery.com/model-based-outlier-detection-and-removal-in-python/">4 Automatic Outlier Detection Algorithms in Python</a>
-* <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html">Isolation Forest documentation</a>
-* <a href="https://towardsdatascience.com/outlier-detection-with-isolation-forest-3d190448d45e">Outlier Detection with Isolation Forest</a>
-* <a href="https://www.tablesgenerator.com/markdown_tables#">Markdown Table generator</a>
-* <a href="https://jakevdp.github.io/PythonDataScienceHandbook/04.13-geographic-data-with-basemap.html">Geographic Data with Basemap</a>
-* <a href="https://medium.com/@samchaaa/preprocessing-why-you-should-generate-polynomial-features-first-before-standardizing-892b4326a91d">Preprocessing: why you should generate polynomial features first before standardizing</a>
-* <a href="https://apps.gis.ucla.edu/geodata/en/dataset/world_elevation_contours">World Elevation Contours data from UCLA</a>
-* <a href="https://apps.gis.ucla.edu/geodata/dataset/california-public-schools">California school districts data from UCLA</a>
-* <a href="https://www.cde.ca.gov/ds/si/ds/pubschls.asp">California school districts from CA's DoE</a>
-* <a href="https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1">Understanding K-means Clustering in Machine Learning</a> -->
-* <a href="https://dardenreviews.github.io/">Faith's Darden reviews, of course!</a>
+* <a href="https://dardenreviews.github.io/">Faith's Darden reviews</a>
 * And extra big thanks to my Codeup Darden cohort colleagues and the Codeup Data Science instructors for being constant sources of knowledge, help, and motivation!
