@@ -48,7 +48,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 |    Date    |                                Goal                               |     Finished?     |
 |:----------:|:-----------------------------------------------------------------:|:-----------------:|
 | 12/3/2020 | Finish project planning and start MVP.                            |<ul><li>- [x] </li>
-| 12/4/2020 | Finish the project MVP with modules.                              |<ul><li>- [ ] </li>
+| 12/4/2020 | Finish the project MVP with modules.                              |<ul><li>- [x] </li>
 | 12/5/2020 | Finish second pipeline iteration, with presentation begun.        |<ul><li>- [ ] </li>
 | 12/6/2020 | Finish presentation, practice, exercise, meditate, sleep.         |<ul><li>- [ ] </li>
 | 12/7/2020 | Presentation day!                                                 |<ul><li>- [ ] </li>
