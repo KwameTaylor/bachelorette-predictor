@@ -77,6 +77,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 
 **Things I'll save for future iterations for the sake of time:**
 * Incorporate more of the existing data
+* Create function to cache modified data
 * Add feature: contestant's hometown's proximity to that season's bachelorette's hometown
 * Add feature: Received a first impression rose
 * Add analysis of the data as a time series (sampled by week)
