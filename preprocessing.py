@@ -177,13 +177,13 @@ def train_validate_test_manual(df, target):
 def train_validate_test(df, target):
     '''
     This function manually splits the df into
-    train (75%), validate (16.667%), and test (~8.333%),
-    splitting down ElimWeek values chronologically.
+    train (66.67%), validate (16.667%), and test (16.667%),
+    splitting down Seasons.
     '''
     # split df into train, validate, and test
-    train = df[df['ElimWeek'] <= 7.0]
-    validate = df.loc[(df.ElimWeek == 8.0) | (df.ElimWeek == 9.0)]
-    test = df[df['ElimWeek'] >= 10.0]
+    train = df[df['Season'] <= 8]
+    validate = df.loc[(df.Season == 9) | (df.Season == 10)]
+    test = df.loc[(df.Season == 11) | (df.Season == 12)]
         
     # split train into X & y
     X_train = train.drop(columns=[target])
