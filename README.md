@@ -96,18 +96,8 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 ## Hypotheses
 
 #### Is there a linear relationship between One-on-One_Score and ElimWeek?
-$
-\begin{align*}
-   H_0 & : \text{There is no linear correlation between a contestant's One-on-One Score and a contestant's Elimination Week.}
-   \\
-   H_a & : \text{There is a linear correlation between a contestant's One-on-One Score and a contestant's Elimination Week.}
-   \\
-    \alpha & : \text{0.05}
-\end{align*}
-$
-
-𝐻0: Null Hypo 1<br>
-𝐻𝑎: Alt Hypo 1
+<br>𝐻0: There is no linear correlation between a contestant's One-on-One Score and a contestant's Elimination Week.<br>
+𝐻𝑎: There is a linear correlation between a contestant's One-on-One Score and a contestant's Elimination Week.
 
 𝐻0: Null Hypo 2<br>
 𝐻𝑎: Alt Hypo 2
