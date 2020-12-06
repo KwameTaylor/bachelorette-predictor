@@ -51,3 +51,9 @@ def model_1_test(X, y):
     print("RMSE for OLS using LinearRegression\n\nOn test data:\n", round(lm_rmse, 6))
 
     return lm_pred, lm_rmse
+
+def evaluate_baseline(baseline, y_train, y_validate):
+    baseline_rmse_train = round(mean_squared_error(y_train, np.full(len(y_train), baseline))**1/2, 6)
+    print('RMSE (Root Mean Square Error) of Baseline on train data:\n', baseline_rmse_train)
+    baseline_rmse_validate = round(mean_squared_error(y_validate, np.full(len(y_validate), baseline))**1/2, 6)
+    print('RMSE (Root Mean Square Error) of Baseline on validate data:\n', baseline_rmse_validate)
