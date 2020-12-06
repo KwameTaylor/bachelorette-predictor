@@ -77,7 +77,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 ## Iterations through the Data Science Pipeline
 
 <details>
-  <summary>**Pipeline iteration 1:**</summary>
+  <summary>Pipeline iteration 1:</summary>
   
 * Project plan and timeline
 * README outline
@@ -91,21 +91,29 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
     * model.py
 </details>
 
-**Pipeline iteration 2:**
+<details>
+  <summary>Pipeline iteration 2:</summary>
+  
 * Recalibrate project plan timeline and goals
 * Tidy the data a little further
 * Put functions into modules
 * Fill out the data dictionary
 * Create Google slides
+</details>
 
-**Pipeline iteration 3:**
+<details>
+  <summary>Pipeline iteration 3:</summary>
+  
 * Make README more thorough
 * Clarify conclusions
 * Make visualizations prettier
 * Finetune Google slides
 * Practice presentation & type up speaker notes
+</details>
 
-**Things I'll save for future iterations for the sake of time:**
+<details>
+  <summary>Things I'll save for future iterations for the sake of time:</summary>
+
 * Incorporate more of the existing data
 * Create function to cache modified data
 * Add feature: contestant's hometown's proximity to that season's bachelorette's hometown
@@ -113,7 +121,8 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 * Add analysis of the data as a time series (sampled by week)
 * Go back to the joining of the two dataframes and recover the lost 18 observations (because of mismatched key pairs)
 * Incorporate data from the Bachelor
-<!-- cute[cute['ElimWeek'] == 11.0] is missing season's 6 and 7. -->
+</details>
+
 ---
 
 Instructions for use and reproduction:
@@ -141,11 +150,11 @@ The code in here was developed on MacOS, but should run fine anywhere you can in
 ---
 
 ### Big thanks to the following resources for resources, education, and inspiration:
-* <a href="https://www.kaggle.com/jasminedogu/bachelorettedataset">jasminedogu</a>'s Bachelorette data on Kaggle
-* The <a href="https://codeup.com/">Codeup</a> data science curriculum
 * <a href="https://abc.com/shows/the-bachelorette">ABC's The Bachelorette</a>!
 * The <a href="https://bachelor-nation.fandom.com/wiki/Bachelor_Nation_Wiki">Bachelor Nation Wiki</a>
 * <a href="https://www.kaggle.com/fivethirtyeight/fivethirtyeight-bachelorette-dataset">FiveThirtyEight and ABC</a> for their work in collecting the data I used in this project
+* <a href="https://www.kaggle.com/jasminedogu/bachelorettedataset">jasminedogu</a>'s Bachelorette data on Kaggle
+* The <a href="https://codeup.com/">Codeup</a> data science curriculum
 * <a href="https://alexjs.com/">Alex</a> (via the alexLinter extension on VS Code) for helping me catch insensitive and inconsiderate writing in my README
 * Faith's <a href="https://dardenreviews.github.io/">Darden reviews</a>
 * Zach's <a href="https://github.com/zgulde/hlre">hlre</a> tool (useful for highlighting regular expressions)
@@ -158,3 +167,4 @@ The code in here was developed on MacOS, but should run fine anywhere you can in
 * This <a href="https://www.cnn.com/interactive/2019/05/entertainment/bachelorette-numbers/index.html">interactive dashboard</a> about roses and dates
 * And extra big thanks to the Codeup data science instructors and my Darden cohort colleagues for being constant sources of knowledge, help, and motivation!
 <!-- https://adashofdata.com/2015/02/18/the-data-behind-the-bachelor-the-bachelorette/ -->
+<!-- cute[cute['ElimWeek'] == 11.0] is missing season's 6 and 7. -->

@@ -47,5 +47,5 @@ def drop_extra_cols(df):
     '''
     df = df.drop(columns=['ELIMINATION-1', 'ELIMINATION-2', 'ELIMINATION-3', 'ELIMINATION-4',
        'ELIMINATION-5', 'ELIMINATION-6', 'ELIMINATION-7', 'ELIMINATION-8',
-       'ELIMINATION-9', 'ELIMINATION-10', 'Hometown', 'Occupation', 'Name', 'DATES-1'])
+       'ELIMINATION-9', 'ELIMINATION-10', 'Occupation', 'Name', 'DATES-1'])
     return df

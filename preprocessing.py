@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import re
 
 import sklearn.preprocessing
 from sklearn.preprocessing import MinMaxScaler, PolynomialFeatures
@@ -204,9 +205,13 @@ def train_validate_test(df, target):
 def parse_hometowns(df):
     '''
     This function takes in a df and returns a df
-    with Homestate abbrevations as a new feature,
-    and HomeRegion as a new feature.
+    with Homestate, Homestate abbrevations, 
+    and HomeRegion as new features.
     '''
+
+    # Get homestates
+    df['Homestate'] = df.Hometown.replace(to_replace = '(St. )?\w+( )?\w*(, )', value = '', regex = True)
+
     states_regions = {
             'AK': 'O',
             'AL': 'S',
@@ -326,10 +331,16 @@ def parse_hometowns(df):
         'Wyoming': 'WY'
     }
 
+    # Get homestate abbreviations
     for key in us_state_abbrev:
         df.loc[df['Homestate'].str.contains(key), 'HomestateAbbr'] = us_state_abbrev[key]
 
+    df.fillna('Other', inplace=True)
+
+    # Get regions
     for key in states_regions:
         df.loc[df['HomestateAbbr'].str.contains(key), 'HomeRegion'] = states_regions[key]
+
+    df.fillna('Other', inplace=True)
 
     return df
