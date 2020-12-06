@@ -210,7 +210,7 @@ def parse_hometowns(df):
     '''
 
     # Get homestates
-    df['Homestate'] = df.Hometown.replace(to_replace = '(St. )?\w+( )?\w*(, )', value = '', regex = True)
+    df['Homestate'] = df.Hometown.replace(to_replace = '(St. )?\w+( )?\w+( )?\w*(, )', value = '', regex = True)
 
     states_regions = {
             'AK': 'O',
@@ -335,12 +335,14 @@ def parse_hometowns(df):
     for key in us_state_abbrev:
         df.loc[df['Homestate'].str.contains(key), 'HomestateAbbr'] = us_state_abbrev[key]
 
-    df.fillna('Other', inplace=True)
+    df.HomestateAbbr.fillna('Other', inplace=True)
 
     # Get regions
     for key in states_regions:
         df.loc[df['HomestateAbbr'].str.contains(key), 'HomeRegion'] = states_regions[key]
 
-    df.fillna('Other', inplace=True)
+    df.HomeRegion.fillna('Other', inplace=True)
+
+    df.drop(columns=['Hometown'], inplace=True)
 
     return df
