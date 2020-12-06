@@ -99,6 +99,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 * Add feature: Received a first impression rose
 * Add analysis of the data as a time series (sampled by week)
 * Go back to the joining of the two dataframes and recover the lost 18 observations (because of mismatched key pairs)
+* Incorporate data from the Bachelor
 <!-- cute[cute['ElimWeek'] == 11.0] is missing season's 6 and 7. -->
 ---
 
@@ -134,4 +135,10 @@ The code in here was developed on MacOS, but should run fine anywhere you can in
 * <a href="https://alexjs.com/">Alex</a> (via the alexLinter extension on VS Code) for helping me catch insensitive and inconsiderate writing in my README
 * <a href="https://dardenreviews.github.io/">Faith's Darden reviews</a>
 * <a href="https://stats.stackexchange.com/questions/282803/response-is-an-integer-should-i-use-classification-or-regression">This post on Stats StackExchange</a>, which helped me decide whether to use classification or regression
+* <a href="https://www.bachelornationdata.com/">Bachelor Nation Data</a>
+* This <a href="https://www.vice.com/en/article/qvdbem/using-data-to-predict-this-seasons-winner-of-the-bachelor">Vice</a> article
+* <a href="https://www.thrillist.com/entertainment/nation/height-chart-the-bachelorette-bachelor-contestants">This article</a> on Thrillist
+* The <a href="https://stoltzmaniac.shinyapps.io/TheBacheloretteApp/">Bachelorette App</a> Dashboard, accompanied by <a href="https://www.r-bloggers.com/2020/10/the-bachelorette-ep-1-every-has-its-thorn-data-analysis-in-r/">this</a> writeup
+* <a href="http://www.tortureddata.com/tag/bachelorette/">Does Your Salary Influence Your Chances of Winning the Bachelor/Bachelorette?</a>
+* This <a href="https://www.cnn.com/interactive/2019/05/entertainment/bachelorette-numbers/index.html">interactive dashboard</a> about roses and dates
 * And extra big thanks to the Codeup data science instructors and my Darden cohort colleagues for being constant sources of knowledge, help, and motivation!
