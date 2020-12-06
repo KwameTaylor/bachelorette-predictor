@@ -44,6 +44,7 @@ def pearsons_test(train, x, y, alpha):
     r, p = stats.pearsonr(x, y)
     print('r =', r)
     print('p =', p)
+    print('\n')
 
     null_hypothesis = "there is no linear correlation between a contestant's One-on-One Score and a contestant's Elimination Week."
 
