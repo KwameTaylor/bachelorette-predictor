@@ -128,12 +128,14 @@ The code in here was developed on MacOS, but should run fine anywhere you can in
 ---
 
 ### Big thanks to the following resources for resources, education, and inspiration:
+* <a href="https://www.kaggle.com/jasminedogu/bachelorettedataset">jasminedogu</a>'s Bachelorette data on Kaggle
 * The <a href="https://codeup.com/">Codeup</a> data science curriculum
 * <a href="https://abc.com/shows/the-bachelorette">ABC's The Bachelorette</a>!
 * The <a href="https://bachelor-nation.fandom.com/wiki/Bachelor_Nation_Wiki">Bachelor Nation Wiki</a>
 * <a href="https://www.kaggle.com/fivethirtyeight/fivethirtyeight-bachelorette-dataset">FiveThirtyEight and ABC</a> for their work in collecting the data I used in this project
 * <a href="https://alexjs.com/">Alex</a> (via the alexLinter extension on VS Code) for helping me catch insensitive and inconsiderate writing in my README
-* <a href="https://dardenreviews.github.io/">Faith's Darden reviews</a>
+* Faith's <a href="https://dardenreviews.github.io/">Darden reviews</a>
+* Zach's <a href="https://github.com/zgulde/hlre">hlre</a> tool (useful for highlighting regular expressions)
 * <a href="https://stats.stackexchange.com/questions/282803/response-is-an-integer-should-i-use-classification-or-regression">This post on Stats StackExchange</a>, which helped me decide whether to use classification or regression
 * <a href="https://www.bachelornationdata.com/">Bachelor Nation Data</a>
 * This <a href="https://www.vice.com/en/article/qvdbem/using-data-to-predict-this-seasons-winner-of-the-bachelor">Vice</a> article
@@ -142,3 +144,4 @@ The code in here was developed on MacOS, but should run fine anywhere you can in
 * <a href="http://www.tortureddata.com/tag/bachelorette/">Does Your Salary Influence Your Chances of Winning the Bachelor/Bachelorette?</a>
 * This <a href="https://www.cnn.com/interactive/2019/05/entertainment/bachelorette-numbers/index.html">interactive dashboard</a> about roses and dates
 * And extra big thanks to the Codeup data science instructors and my Darden cohort colleagues for being constant sources of knowledge, help, and motivation!
+<!-- https://adashofdata.com/2015/02/18/the-data-behind-the-bachelor-the-bachelorette/ -->
