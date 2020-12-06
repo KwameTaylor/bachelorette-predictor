@@ -147,7 +147,7 @@ def train_validate_test_auto(df, target):
 
     return X_train, y_train, X_validate, y_validate, X_test, y_test, train, validate, test
 
-def train_validate_test(df, target):
+def train_validate_test_manual(df, target):
     '''
     This function manually splits the df into
     train (75%), validate (16.667%), and test (~8.333%),
@@ -157,6 +157,33 @@ def train_validate_test(df, target):
     train = df[df['ElimWeek'] <= 8.0]
     validate = df.loc[(df.ElimWeek == 9.0) | (df.ElimWeek == 10.0)]
     test = df[df['ElimWeek'] == 11.0]
+        
+    # split train into X & y
+    X_train = train.drop(columns=[target])
+    y_train = train[target]
+    
+    # split validate into X & y
+    X_validate = validate.drop(columns=[target])
+    y_validate = validate[target]
+    
+    # split test into X & y
+    X_test = test.drop(columns=[target])
+    y_test = test[target]
+    
+    print('Shape of train:', X_train.shape, '| Shape of validate:', X_validate.shape, '| Shape of test:', X_test.shape)
+
+    return X_train, y_train, X_validate, y_validate, X_test, y_test, train, validate, test
+
+def train_validate_test(df, target):
+    '''
+    This function manually splits the df into
+    train (75%), validate (16.667%), and test (~8.333%),
+    splitting down ElimWeek values chronologically.
+    '''
+    # split df into train, validate, and test
+    train = df[df['ElimWeek'] <= 7.0]
+    validate = df.loc[(df.ElimWeek == 8.0) | (df.ElimWeek == 9.0)]
+    test = df[df['ElimWeek'] >= 10.0]
         
     # split train into X & y
     X_train = train.drop(columns=[target])
