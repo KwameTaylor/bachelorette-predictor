@@ -26,6 +26,23 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 
 ---
 
+## Data Dictionary
+
+| Term                     | Definition                                                 | Data type                |
+|--------------------------|------------------------------------------------------------|--------------------------|
+| Term here                | Definition here                                            | int64                    |
+| Term here                | Definition here                                            | float                    |
+| Term here                | Definition here                                            | object                   |
+
+---
+
+## Hypotheses
+
+𝐻0: There is no linear correlation between a contestant's One-on-One Score and a contestant's Elimination Week.<br>
+𝐻𝑎: There is a linear correlation between a contestant's One-on-One Score and a contestant's Elimination Week.
+
+---
+
 ## Project Plan
 
 |    Date    |                                Goal                               |     Finished?     |
@@ -81,23 +98,6 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 * Add feature: contestant's hometown's proximity to that season's bachelorette's hometown
 * Add feature: Received a first impression rose
 * Add analysis of the data as a time series (sampled by week)
-
----
-
-## Data Dictionary
-
-| Term                     | Definition                                                 | Data type                |
-|--------------------------|------------------------------------------------------------|--------------------------|
-| Term here                | Definition here                                            | int64                    |
-| Term here                | Definition here                                            | float                    |
-| Term here                | Definition here                                            | object                   |
-
----
-
-## Hypotheses
-
-𝐻0: There is no linear correlation between a contestant's One-on-One Score and a contestant's Elimination Week.<br>
-𝐻𝑎: There is a linear correlation between a contestant's One-on-One Score and a contestant's Elimination Week.
 
 ---
 
