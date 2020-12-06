@@ -43,6 +43,16 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 
 ---
 
+## Predictive Modeling
+
+| # | Model | Features Used | RMSE on train | RMSE on validate | RMSE on test |
+|---|-------|---------------|---------------|------------------|--------------|
+| 1 |       |               |               |                  |              |
+| 2 |       |               |               |                  |              |
+| 3 |       |               |               |                  |              |
+
+---
+
 ## Project Plan
 
 |    Date    |                                Goal                               |     Finished?     |
@@ -66,7 +76,9 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 
 ## Iterations through the Data Science Pipeline
 
-**Pipeline iteration 1:**
+<details>
+  <summary>**Pipeline iteration 1:**</summary>
+  
 * Project plan and timeline
 * README outline
 * Structure project bones
@@ -77,6 +89,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
     * preprocessing.py
     * explore.py
     * model.py
+</details>
 
 **Pipeline iteration 2:**
 * Recalibrate project plan timeline and goals
