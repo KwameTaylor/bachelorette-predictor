@@ -120,16 +120,10 @@ def handle_dates_and_elims(df):
 
     return df
 
-def train_validate_test(df, target):
+def train_validate_test_auto(df, target):
     '''
-    this function takes in a dataframe and splits it into 3 samples, 
-    a test, which is 20% of the entire dataframe, 
-    a validate, which is 24% of the entire dataframe,
-    and a train, which is 56% of the entire dataframe. 
-    It then splits each of the 3 samples into a dataframe with independent variables
-    and a series with the dependent, or target variable. 
-    The function returns 3 dataframes and 3 series:
-    X_train (df) & y_train (series), X_validate & y_validate, X_test & y_test. 
+    This function takes in a dataframe and splits it into test (20%), validate (24%), and train (56%). 
+    It also splits test, validate, and train into X and y dataframes.
     '''
     # split df into test (20%) and train_validate (80%)
     train_validate, test = train_test_split(df, stratify=df[target], test_size=.2, random_state=666)
@@ -137,15 +131,42 @@ def train_validate_test(df, target):
     # split train_validate off into train (70% of 80% = 56%) and validate (30% of 80% = 24%)
     train, validate = train_test_split(train_validate, test_size=.3, random_state=666)
         
-    # split train into X (dataframe, drop target) & y (series, keep target only)
+    # split train into X & y
     X_train = train.drop(columns=[target])
     y_train = train[target]
     
-    # split validate into X (dataframe, drop target) & y (series, keep target only)
+    # split validate into X & y
     X_validate = validate.drop(columns=[target])
     y_validate = validate[target]
     
-    # split test into X (dataframe, drop target) & y (series, keep target only)
+    # split test into X & y
+    X_test = test.drop(columns=[target])
+    y_test = test[target]
+    
+    print('Shape of train:', X_train.shape, '| Shape of validate:', X_validate.shape, '| Shape of test:', X_test.shape)
+
+    return X_train, y_train, X_validate, y_validate, X_test, y_test, train, validate, test
+
+def train_validate_test(df, target):
+    '''
+    This function manually splits the df into
+    train (75%), validate (16.667%), and test (~8.333%),
+    splitting down ElimWeek values chronologically.
+    '''
+    # split df into train, validate, and test
+    train = df[df['ElimWeek'] <= 8.0]
+    validate = df.loc[(df.ElimWeek == 9.0) | (df.ElimWeek == 10.0)]
+    test = df[df['ElimWeek'] == 11.0]
+        
+    # split train into X & y
+    X_train = train.drop(columns=[target])
+    y_train = train[target]
+    
+    # split validate into X & y
+    X_validate = validate.drop(columns=[target])
+    y_validate = validate[target]
+    
+    # split test into X & y
     X_test = test.drop(columns=[target])
     y_test = test[target]
     
