@@ -23,7 +23,7 @@ from preprocessing import handle_dates_and_elims, train_validate_test
 
 def make_heatmap(train):
     heatmap1_data = pd.pivot_table(train, values='ElimWeek', 
-                     index=pd.cut(train['Age'], bins=5, precision=0), 
+                     index=pd.cut(train['Age'], bins=4, precision=0), 
                      columns='Season')
     heatmap1_data.sort_index(inplace=True, ascending=False)
     sns.heatmap(heatmap1_data, cmap="RdPu", square=True)

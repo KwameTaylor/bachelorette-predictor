@@ -105,6 +105,28 @@ def model_4(X, y, X_v, y_v):
 
     return forest_pred, forest_rmse, forest_pred_v, forest_rmse_v
 
+def model_5(X, y, X_v, y_v):
+    # create the model object
+    forest = RandomForestRegressor()
+
+    # fit the model to our training data
+    forest.fit(X, y)
+
+    # predict on train
+    forest_pred = forest.predict(X)
+    # compute root mean squared error
+    forest_rmse = mean_squared_error(y, forest_pred)**1/2
+
+    # predict on validate
+    forest_pred_v = forest.predict(X_v)
+    # compute root mean squared error
+    forest_rmse_v = mean_squared_error(y_v, forest_pred_v)**1/2
+
+    print("RMSE for RandomForestRegressor\n\nOn train data:\n", round(forest_rmse, 6), '\n\n', 
+    "On validate data:\n", round(forest_rmse_v, 6))
+
+    return forest_pred, forest_rmse, forest_pred_v, forest_rmse_v
+
 def model_1_test(X, y):
     # create the model object
     lm = LinearRegression(normalize=True)
