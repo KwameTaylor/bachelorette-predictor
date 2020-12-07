@@ -36,7 +36,7 @@ def calculate_score(df):
     '''
     This function calculates the One-on-One Score for each contestant.
     '''
-    df['One-on-One_Score'] = (df['Dates2-Calculated'] + df['Dates3-Calculated'] + df['Dates4-Calculated'] + df['Dates5-Calculated'] + df['Dates6-Calculated'] + df['Dates7-Calculated'] + df['Dates8-Calculated'] + df['Dates9-Calculated'] + df['Dates10-Calculated']) / (df['ElimWeek'] + 1.0)
+    df['One-on-One_Score'] = (df['Dates2-OneonOneScore'] + df['Dates3-OneonOneScore'] + df['Dates4-OneonOneScore'] + df['Dates5-OneonOneScore'] + df['Dates6-OneonOneScore'] + df['Dates7-OneonOneScore'] + df['Dates8-OneonOneScore'] + df['Dates9-OneonOneScore'] + df['Dates10-OneonOneScore']) / (df['ElimWeek'] + 1.0)
     return df
 
 def get_first_date(df):
@@ -89,15 +89,15 @@ def handle_dates_and_elims(df):
     df = df.fillna(0)
 
     # calcuate the contestant's date scores per episode and add that feature
-    df = calculate_dates(df, 'DATES-2', 'Dates2-Calculated')
-    df = calculate_dates(df, 'DATES-3', 'Dates3-Calculated')
-    df = calculate_dates(df, 'DATES-4', 'Dates4-Calculated')
-    df = calculate_dates(df, 'DATES-5', 'Dates5-Calculated')
-    df = calculate_dates(df, 'DATES-6', 'Dates6-Calculated')
-    df = calculate_dates(df, 'DATES-7', 'Dates7-Calculated')
-    df = calculate_dates(df, 'DATES-8', 'Dates8-Calculated')
-    df = calculate_dates(df, 'DATES-9', 'Dates9-Calculated')
-    df = calculate_dates(df, 'DATES-10', 'Dates10-Calculated')
+    df = calculate_dates(df, 'DATES-2', 'Dates2-OneonOneScore')
+    df = calculate_dates(df, 'DATES-3', 'Dates3-OneonOneScore')
+    df = calculate_dates(df, 'DATES-4', 'Dates4-OneonOneScore')
+    df = calculate_dates(df, 'DATES-5', 'Dates5-OneonOneScore')
+    df = calculate_dates(df, 'DATES-6', 'Dates6-OneonOneScore')
+    df = calculate_dates(df, 'DATES-7', 'Dates7-OneonOneScore')
+    df = calculate_dates(df, 'DATES-8', 'Dates8-OneonOneScore')
+    df = calculate_dates(df, 'DATES-9', 'Dates9-OneonOneScore')
+    df = calculate_dates(df, 'DATES-10', 'Dates10-OneonOneScore')
 
     # Replace any inf values with NaN
     # where the try and except did not catch the division by zero error
@@ -106,7 +106,7 @@ def handle_dates_and_elims(df):
     # Then replace those NaNs with 0
     df = df.fillna(0)
 
-    # Get one-on-one score feature
+    # Get one-on-one score feature -- this feature may be cancelled
     df = calculate_score(df)
 
     # Get firstdate feature
@@ -114,10 +114,9 @@ def handle_dates_and_elims(df):
 
     # Drop the features that are unneeded now that we have our newly engineered features
     df = df.drop(columns=['DATES-2', 'DATES-3', 'DATES-4', 'DATES-5',
-       'DATES-6', 'DATES-7', 'DATES-8', 'DATES-9', 'DATES-10',
-       'Dates2-Calculated', 'Dates3-Calculated', 'Dates4-Calculated',
-       'Dates5-Calculated', 'Dates6-Calculated', 'Dates7-Calculated',
-       'Dates8-Calculated', 'Dates9-Calculated', 'Dates10-Calculated'])
+       'DATES-6', 'DATES-7', 'DATES-8', 'DATES-9', 'DATES-10', 'Dates4-OneonOneScore',
+       'Dates5-OneonOneScore', 'Dates6-OneonOneScore', 'Dates7-OneonOneScore',
+       'Dates8-OneonOneScore', 'Dates9-OneonOneScore', 'Dates10-OneonOneScore'])
 
     return df
 
@@ -343,6 +342,6 @@ def parse_hometowns(df):
 
     df.HomeRegion.fillna('Other', inplace=True)
 
-    df.drop(columns=['Hometown'], inplace=True)
+    df.drop(columns=['Homestate', 'Hometown', 'HomestateAbbr'], inplace=True)
 
     return df

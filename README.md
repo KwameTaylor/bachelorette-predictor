@@ -59,7 +59,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 |:----------:|:-----------------------------------------------------------------:|:-----------------:|
 | 12/3/2020 | Finish project planning and start MVP.                            |<ul><li>- [x] </li>
 | 12/4/2020 | Finish the project MVP with modules.                              |<ul><li>- [x] </li>
-| 12/5/2020 | Finish second pipeline iteration, with presentation begun.        |<ul><li>- [ ] </li>
+| 12/5/2020 | Finish second pipeline iteration, with presentation begun.        |<ul><li>- [x] </li>
 | 12/6/2020 | Finish presentation, practice, exercise, meditate, sleep.         |<ul><li>- [ ] </li>
 | 12/7/2020 | Presentation day!                                                 |<ul><li>- [ ] </li>
 
@@ -118,9 +118,11 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 * Create function to cache modified data
 * Add feature: contestant's hometown's proximity to that season's bachelorette's hometown
 * Add feature: Received a first impression rose
-* Add analysis of the data as a time series (sampled by week)
+* In the future I'd like to analyze this as a time series, sampled by week and divided by season
 * Go back to the joining of the two dataframes and recover the lost 18 observations (because of mismatched key pairs)
 * Incorporate data from the Bachelor
+* Join data about each contestant's corresponding bachelorette from their season, such as Age and HomeRegion
+* Utilize clustering in feature engineering
 </details>
 
 ---
@@ -158,6 +160,7 @@ The code in here was developed on MacOS, but should run fine anywhere you can in
 * <a href="https://alexjs.com/">Alex</a> (via the alexLinter extension on VS Code) for helping me catch insensitive and inconsiderate writing in my README
 * Faith's <a href="https://dardenreviews.github.io/">Darden reviews</a>
 * Zach's <a href="https://github.com/zgulde/hlre">hlre</a> tool (useful for highlighting regular expressions)
+* Jackson Killian's <a href="https://code.activestate.com/recipes/580661-states-to-regions/">States to Regions</a> python dictionary that I used
 * <a href="https://stats.stackexchange.com/questions/282803/response-is-an-integer-should-i-use-classification-or-regression">This post on Stats StackExchange</a>, which helped me decide whether to use classification or regression
 * <a href="https://www.bachelornationdata.com/">Bachelor Nation Data</a>
 * This <a href="https://www.vice.com/en/article/qvdbem/using-data-to-predict-this-seasons-winner-of-the-bachelor">Vice</a> article
