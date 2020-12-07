@@ -89,7 +89,7 @@ Feature         | Description
 | 1 |       |               |               |                  |              |
 | 2 |       |               |               |                  |              |
 | 3 |       |               |               |                  |              |
--->
+
 ---
 
 ## Conclusions and Findings
@@ -97,7 +97,7 @@ Feature         | Description
 * Findings
 
 ---
-
+-->
 ## Project Plan
 
 |    Date    |                                Goal                               |     Finished?     |
