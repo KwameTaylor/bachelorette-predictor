@@ -53,6 +53,12 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 
 ---
 
+## Conclusions and Findings
+
+* Findings
+
+---
+
 ## Project Plan
 
 |    Date    |                                Goal                               |     Finished?     |
@@ -123,6 +129,8 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 * Incorporate data from the Bachelor
 * Join data about each contestant's corresponding bachelorette from their season, such as Age and HomeRegion
 * Utilize clustering in feature engineering
+* Deploy predictor as a software product
+* Tune the hyperparameters of my Random Forest Regressor and use Grid-Search
 </details>
 
 ---
