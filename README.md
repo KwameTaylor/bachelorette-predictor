@@ -26,13 +26,52 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 
 ---
 
-## Data Dictionary
+## Data Dictionaries
 
 | Term                     | Definition                                                 | Data type                |
 |--------------------------|------------------------------------------------------------|--------------------------|
-| Term here                | Definition here                                            | int64                    |
-| Term here                | Definition here                                            | float                    |
-| Term here                | Definition here                                            | object                   |
+| Age                      | The contestant's age at the start of the season            | int64                    |
+| ElimWeek                 | The week that the contestant was eliminated from the show. | float64                  |
+| Season                   | The season of the show that the contestant was on.         | object                   |
+| Dates2-OneonOneScore, Dates3-OneonOneScore     | A constestant's calculated One-on-One Score for that week. Equal to 1 divided by the number of contestants on a date. i.e., a One-on-One would have a score of 1.            | float32                  |
+| One-on-One_Score         | Equal to a contestant's average One-on-One score from all weeks they were on the show. | float64                  |
+| FirstDate                | A boolean of whether a contestant went on a date in Week 2, which is the first week of dates with the Bachelorette.      | float64           |
+| N                 | A boolean of whether the contestant's Hometown is in the Midwest region of the United States. | uint8                  |
+| N                 | A boolean of whether the contestant's Hometown is in the North East region of the United States. | uint8                  |
+| O                   | A boolean of whether the contestant's Hometown is in a 'Other' region of the United States. | uint8                  |
+| S                 | A boolean of whether the contestant's Hometown is in the South region of the United States. | uint8                  |
+| W                   | A boolean of whether the contestant's Hometown is in the West region of the United States. | uint8                  |
+| Other                      | A boolean of whether the contestant's Hometown is outside of the United States. | uint8                  |          |
+
+Feature         | Description
+----------------|------------
+`ELIMINATION-1` | Who was eliminated in week 1
+`ELIMINATION-2` | Who was eliminated in week 2
+`ELIMINATION-3` | Who was eliminated in week 3
+`ELIMINATION-4` | Who was eliminated in week 4
+`ELIMINATION-5` | Who was eliminated in week 5
+`ELIMINATION-6` | Who was eliminated in week 6
+`ELIMINATION-7` | Who was eliminated in week 7
+`ELIMINATION-8` | Who was eliminated in week 8
+`ELIMINATION-9` | Who was eliminated in week 9
+`ELIMINATION-10`| Who was eliminated in week 10
+`DATES-1`       | Who was on which date in week 1
+`DATES-2`       | Who was on which date in week 2
+`DATES-3`       | Who was on which date in week 3
+`DATES-4`       | Who was on which date in week 4
+`DATES-5`       | Who was on which date in week 5
+`DATES-6`       | Who was on which date in week 6
+`DATES-7`       | Who was on which date in week 7
+`DATES-8`       | Who was on which date in week 8
+`DATES-9`       | Who was on which date in week 9
+`DATES-10`      | Who was on which date in week 10
+
+- Eliminates connote either an elimination (starts with "E") or a rose (starts with "R").
+- Eliminations supercede roses.
+- "E" connotes a standard elimination, typically at a rose ceremony. "EQ" means the contestant quits. "EF" means the contestant was fired by production. "ED" connotes a date elimination. "EU" connotes an unscheduled elimination, one that takes place at a time outside of a date or rose ceremony.
+- "R" means the contestant received a rose. "R1" means the contestant got a first impression rose.
+- "D1" means a one-on-one date, "D2" means a 2-on-1, "D3" means a 3-on-1 group date, and so on.
+- Weeks of the show are deliminated by rose ceremonies, and may not line up exactly with episodes.
 
 ---
 
@@ -131,6 +170,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 * Utilize clustering in feature engineering
 * Deploy predictor as a software product
 * Tune the hyperparameters of my Random Forest Regressor and use Grid-Search
+* Use my best model to predict on the current season of The Bachelorette
 </details>
 
 ---
@@ -162,7 +202,7 @@ The code in here was developed on MacOS, but should run fine anywhere you can in
 ### Big thanks to the following resources for resources, education, and inspiration:
 * <a href="https://abc.com/shows/the-bachelorette">ABC's The Bachelorette</a>!
 * The <a href="https://bachelor-nation.fandom.com/wiki/Bachelor_Nation_Wiki">Bachelor Nation Wiki</a>
-* <a href="https://www.kaggle.com/fivethirtyeight/fivethirtyeight-bachelorette-dataset">FiveThirtyEight and ABC</a> for their work in collecting the data I used in this project
+* <a href="https://www.kaggle.com/fivethirtyeight/fivethirtyeight-bachelorette-dataset">FiveThirtyEight and ABC</a> and Kaggle user <a href="https://www.kaggle.com/brianbgonz/the-bachelorette-contestants">brianbgonz</a> for their work in collecting the data I used in this project
 * <a href="https://www.kaggle.com/jasminedogu/bachelorettedataset">jasminedogu</a>'s Bachelorette data on Kaggle
 * The <a href="https://codeup.com/">Codeup</a> data science curriculum
 * <a href="https://alexjs.com/">Alex</a> (via the alexLinter extension on VS Code) for helping me catch insensitive and inconsiderate writing in my README
