@@ -82,14 +82,14 @@ Feature         | Description
 
 ---
 
-## Predictive Modeling
+<!--## Predictive Modeling
 
 | # | Model | Features Used | RMSE on train | RMSE on validate | RMSE on test |
 |---|-------|---------------|---------------|------------------|--------------|
 | 1 |       |               |               |                  |              |
 | 2 |       |               |               |                  |              |
 | 3 |       |               |               |                  |              |
-
+-->
 ---
 
 ## Conclusions and Findings
@@ -170,7 +170,7 @@ Feature         | Description
 * Utilize clustering in feature engineering
 * Deploy predictor as a software product
 * Tune the hyperparameters of my Random Forest Regressor and use Grid-Search
-* Use my best model to predict on the current season of The Bachelorette
+* Use my best model to predict on the current season of The Bachelorette (I haven't seen past episode three yet :D)
 * Add visual to my data dictionary for my engineered features
 </details>
 
