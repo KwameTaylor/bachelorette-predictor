@@ -171,6 +171,7 @@ Feature         | Description
 * Deploy predictor as a software product
 * Tune the hyperparameters of my Random Forest Regressor and use Grid-Search
 * Use my best model to predict on the current season of The Bachelorette
+* Add visual to my data dictionary for my engineered features
 </details>
 
 ---
