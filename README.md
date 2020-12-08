@@ -172,6 +172,7 @@ Feature         | Description
 * Tune the hyperparameters of my Random Forest Regressor and use Grid-Search
 * Use my best model to predict on the current season of The Bachelorette (I haven't seen past episode three yet :D)
 * Add visual to my data dictionary for my engineered features
+* Collect my own data to create features: Minutes of screen-time per episode/week, Present in longest scene take of the episode/week
 </details>
 
 ---
