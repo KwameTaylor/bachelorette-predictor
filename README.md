@@ -105,8 +105,8 @@ Feature         | Description
 | 12/3/2020 | Finish project planning and start MVP.                            |<ul><li>- [x] </li>
 | 12/4/2020 | Finish the project MVP with modules.                              |<ul><li>- [x] </li>
 | 12/5/2020 | Finish second pipeline iteration, with presentation begun.        |<ul><li>- [x] </li>
-| 12/6/2020 | Finish presentation, practice, exercise, meditate, sleep.         |<ul><li>- [ ] </li>
-| 12/7/2020 | Presentation day!                                                 |<ul><li>- [ ] </li>
+| 12/6/2020 | Finish presentation, practice, exercise, meditate, sleep.         |<ul><li>- [x] </li>
+| 12/7/2020 | Presentation day!                                                 |<ul><li>- [x] </li>
 
 <!-- The project deliverables are the following: **Jupyter Notebook** data science pipeline walkthrough with **conclusions**, data **visualizations**, **README**, and **modules with functions** (```wrangle.py```, ```preprocessing.py```, ```explore.py```, and ```model.py```). -->
 
