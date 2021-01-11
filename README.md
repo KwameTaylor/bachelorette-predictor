@@ -1,6 +1,8 @@
 # The Bachelorette Predictor
 ### Kwame V. Taylor
 
+For a quick overview, see <a href="https://www.canva.com/design/DAEPgr2WBvc/UO3HkNhC0QKVXbxzfXIfTw/view?utm_content=DAEPgr2WBvc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">project presentation here</a>.
+
 The goal of this project is to create a machine learning model that accurately predicts how many weeks a contestant will last on the ABC reality show The Bachelorette, based on data from Seasons 1-2 and 4-12.
 
 A note on transparency -- I have not seen any of the above selected seasons of the show. I have, however, seen Season 15 of The Bachelorette, and I am currently watching Season 16. <!--I have left Season 13 and 14 out of the data for the sake of time efficiency, as I would have to scrape that data myself from the Bachelor Nation Wiki, since the FiveThirtyEight data has not been updated past Season 13.--> I may include Seasons 3, 13, and 14 in a future iteration of this project.
