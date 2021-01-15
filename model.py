@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 from scipy import stats
 from math import sqrt
 
@@ -24,12 +22,12 @@ def model_1(X, y, X_v, y_v):
     # predict on train
     lm_pred = lm.predict(X)
     # compute root mean squared error
-    lm_rmse = mean_squared_error(y, lm_pred)**1/2
+    lm_rmse = sqrt(mean_squared_error(y, lm_pred))
 
     # predict on validate
     lm_pred_v = lm.predict(X_v)
     # compute root mean squared error
-    lm_rmse_v = mean_squared_error(y_v, lm_pred_v)**1/2
+    lm_rmse_v = sqrt(mean_squared_error(y_v, lm_pred_v))
 
     print("RMSE for OLS using LinearRegression\n\nOn train data:\n", round(lm_rmse, 6), '\n\n', 
         "On validate data:\n", round(lm_rmse_v, 6))
@@ -48,13 +46,13 @@ def model_2(X, y, X_v, y_v):
     pred_lars = lars.predict(X)
 
     # evaluate: rmse
-    rmse_train = mean_squared_error(y, pred_lars)**1/2
+    rmse_train = sqrt(mean_squared_error(y, pred_lars))
 
     # predict validate
     pred_lars_v = lars.predict(X_v)
 
     # evaluate: rmse
-    rmse_validate = mean_squared_error(y_v, pred_lars_v)**1/2
+    rmse_validate = sqrt(mean_squared_error(y_v, pred_lars_v))
 
     print("RMSE for Lasso + Lars\n\nOn train data:\n", round(rmse_train, 6), '\n\n', 
             "On validate data:\n", round(rmse_validate , 6))
@@ -71,12 +69,12 @@ def model_3(X, y, X_v, y_v):
     # predict on train
     lm_pred = lm.predict(X)
     # compute root mean squared error
-    lm_rmse = mean_squared_error(y, lm_pred)**1/2
+    lm_rmse = sqrt(mean_squared_error(y, lm_pred))
 
     # predict on validate
     lm_pred_v = lm.predict(X_v)
     # compute root mean squared error
-    lm_rmse_v = mean_squared_error(y_v, lm_pred_v)**1/2
+    lm_rmse_v = sqrt(mean_squared_error(y_v, lm_pred_v))
 
     print("RMSE for OLS using LinearRegression\n\nOn train data:\n", round(lm_rmse, 6), '\n\n', 
         "On validate data:\n", round(lm_rmse_v, 6))
@@ -93,12 +91,12 @@ def model_4(X, y, X_v, y_v):
     # predict on train
     forest_pred = forest.predict(X)
     # compute root mean squared error
-    forest_rmse = mean_squared_error(y, forest_pred)**1/2
+    forest_rmse = sqrt(mean_squared_error(y, forest_pred))
 
     # predict on validate
     forest_pred_v = forest.predict(X_v)
     # compute root mean squared error
-    forest_rmse_v = mean_squared_error(y_v, forest_pred_v)**1/2
+    forest_rmse_v = sqrt(mean_squared_error(y_v, forest_pred_v))
 
     print("RMSE for RandomForestRegressor\n\nOn train data:\n", round(forest_rmse, 6), '\n\n', 
     "On validate data:\n", round(forest_rmse_v, 6))
@@ -115,12 +113,12 @@ def model_5(X, y, X_v, y_v):
     # predict on train
     forest_pred = forest.predict(X)
     # compute root mean squared error
-    forest_rmse = mean_squared_error(y, forest_pred)**1/2
+    forest_rmse = sqrt(mean_squared_error(y, forest_pred))
 
     # predict on validate
     forest_pred_v = forest.predict(X_v)
     # compute root mean squared error
-    forest_rmse_v = mean_squared_error(y_v, forest_pred_v)**1/2
+    forest_rmse_v = sqrt(mean_squared_error(y_v, forest_pred_v))
 
     print("RMSE for RandomForestRegressor\n\nOn train data:\n", round(forest_rmse, 6), '\n\n', 
     "On validate data:\n", round(forest_rmse_v, 6))
@@ -137,7 +135,7 @@ def model_1_test(X, y):
     # predict on test
     lm_pred = lm.predict(X)
     # compute root mean squared error
-    lm_rmse = mean_squared_error(y, lm_pred)**1/2
+    lm_rmse = sqrt(mean_squared_error(y, lm_pred))
 
     print("RMSE for OLS using LinearRegression\n\nOn test data:\n", round(lm_rmse, 6))
 
@@ -153,14 +151,14 @@ def model_4_test(X, y):
     # predict on test
     forest_pred = forest.predict(X)
     # compute root mean squared error
-    forest_rmse = mean_squared_error(y, forest_pred)**1/2
+    forest_rmse = sqrt(mean_squared_error(y, forest_pred))
 
     print("RMSE for RandomForestRegressor\n\nOn test data:\n", round(forest_rmse, 6))
 
     return forest_pred, forest_rmse
 
 def evaluate_baseline(baseline, y_train, y_validate):
-    baseline_rmse_train = round(mean_squared_error(y_train, np.full(len(y_train), baseline))**1/2, 6)
+    baseline_rmse_train = round(sqrt(mean_squared_error(y_train, np.full(len(y_train), baseline))), 6)
     print('RMSE (Root Mean Square Error) of Baseline on train data:\n', baseline_rmse_train)
-    baseline_rmse_validate = round(mean_squared_error(y_validate, np.full(len(y_validate), baseline))**1/2, 6)
+    baseline_rmse_validate = round(sqrt(mean_squared_error(y_validate, np.full(len(y_validate), baseline))), 6)
     print('RMSE (Root Mean Square Error) of Baseline on validate data:\n', baseline_rmse_validate)
