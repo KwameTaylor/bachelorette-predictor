@@ -75,7 +75,7 @@ Feature         | Description
 - "D1" means a one-on-one date, "D2" means a 2-on-1, "D3" means a 3-on-1 group date, and so on.
 - Weeks of the show are deliminated by rose ceremonies, and may not line up exactly with episodes.
 
-[One-on-One Score]("oneononescore.png")
+[One-on-One Score](oneononescore.png)
 
 ---
 
