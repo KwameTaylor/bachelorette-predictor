@@ -86,6 +86,8 @@ Feature         | Description
 
 ---
 
+## Predictive Modeling
+
 | # | Model | Features Used | RMSE on train | RMSE on validate | RMSE on test |
 |---|-------|---------------|---------------|------------------|--------------|
 | 1 |       |               |               |                  |              |
