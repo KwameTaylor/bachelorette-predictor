@@ -1,6 +1,8 @@
 # The Bachelorette Predictor
 ### Kwame V. Taylor
 
+For a quick overview, see <a href="https://www.canva.com/design/DAEPgr2WBvc/UO3HkNhC0QKVXbxzfXIfTw/view?utm_content=DAEPgr2WBvc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">project presentation here</a>.
+
 The goal of this project is to create a machine learning model that accurately predicts how many weeks a contestant will last on the ABC reality show The Bachelorette, based on data from Seasons 1-2 and 4-12.
 
 A note on transparency -- I have not seen any of the above selected seasons of the show. I have, however, seen Season 15 of The Bachelorette, and I am currently watching Season 16. <!--I have left Season 13 and 14 out of the data for the sake of time efficiency, as I would have to scrape that data myself from the Bachelor Nation Wiki, since the FiveThirtyEight data has not been updated past Season 13.--> I may include Seasons 3, 13, and 14 in a future iteration of this project.
@@ -36,7 +38,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 | Dates2-OneonOneScore, Dates3-OneonOneScore     | A constestant's calculated One-on-One Score for that week. Equal to 1 divided by the number of contestants on a date. i.e., a One-on-One would have a score of 1.            | float32                  |
 | One-on-One_Score         | Equal to a contestant's average One-on-One score from all weeks they were on the show. | float64                  |
 | FirstDate                | A boolean of whether a contestant went on a date in Week 2, which is the first week of dates with the Bachelorette.      | float64           |
-| N                 | A boolean of whether the contestant's Hometown is in the Midwest region of the United States. | uint8                  |
+| M                 | A boolean of whether the contestant's Hometown is in the Midwest region of the United States. | uint8                  |
 | N                 | A boolean of whether the contestant's Hometown is in the North East region of the United States. | uint8                  |
 | O                   | A boolean of whether the contestant's Hometown is in a 'Other' region of the United States. | uint8                  |
 | S                 | A boolean of whether the contestant's Hometown is in the South region of the United States. | uint8                  |
@@ -73,6 +75,8 @@ Feature         | Description
 - "D1" means a one-on-one date, "D2" means a 2-on-1, "D3" means a 3-on-1 group date, and so on.
 - Weeks of the show are deliminated by rose ceremonies, and may not line up exactly with episodes.
 
+![One-on-One Score](https://github.com/KwameTaylor/bachelorette-predictor/blob/main/oneononescore.png?raw=true)
+
 ---
 
 ## Hypotheses
@@ -105,8 +109,8 @@ Feature         | Description
 | 12/3/2020 | Finish project planning and start MVP.                            |<ul><li>- [x] </li>
 | 12/4/2020 | Finish the project MVP with modules.                              |<ul><li>- [x] </li>
 | 12/5/2020 | Finish second pipeline iteration, with presentation begun.        |<ul><li>- [x] </li>
-| 12/6/2020 | Finish presentation, practice, exercise, meditate, sleep.         |<ul><li>- [ ] </li>
-| 12/7/2020 | Presentation day!                                                 |<ul><li>- [ ] </li>
+| 12/6/2020 | Finish presentation, practice, exercise, meditate, sleep.         |<ul><li>- [x] </li>
+| 12/7/2020 | Presentation day!                                                 |<ul><li>- [x] </li>
 
 <!-- The project deliverables are the following: **Jupyter Notebook** data science pipeline walkthrough with **conclusions**, data **visualizations**, **README**, and **modules with functions** (```wrangle.py```, ```preprocessing.py```, ```explore.py```, and ```model.py```). -->
 
