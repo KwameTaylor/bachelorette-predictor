@@ -38,7 +38,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/The_Bachelorette):
 | Dates2-OneonOneScore, Dates3-OneonOneScore     | A constestant's calculated One-on-One Score for that week. Equal to 1 divided by the number of contestants on a date. i.e., a One-on-One would have a score of 1.            | float32                  |
 | One-on-One_Score         | Equal to a contestant's average One-on-One score from all weeks they were on the show. | float64                  |
 | FirstDate                | A boolean of whether a contestant went on a date in Week 2, which is the first week of dates with the Bachelorette.      | float64           |
-| N                 | A boolean of whether the contestant's Hometown is in the Midwest region of the United States. | uint8                  |
+| M                 | A boolean of whether the contestant's Hometown is in the Midwest region of the United States. | uint8                  |
 | N                 | A boolean of whether the contestant's Hometown is in the North East region of the United States. | uint8                  |
 | O                   | A boolean of whether the contestant's Hometown is in a 'Other' region of the United States. | uint8                  |
 | S                 | A boolean of whether the contestant's Hometown is in the South region of the United States. | uint8                  |
